@@ -1,0 +1,62 @@
+{
+ "feil": {
+  "Airtribune": 0,
+  "CIVL": 1
+ },
+ "sett": {
+  "airtribune:acro-battle-oludeniz": {
+   "dato": "2 days left",
+   "funnet": "2026-10-19T17:52+00:00",
+   "id": "airtribune:acro-battle-oludeniz",
+   "info": "Acro Battle Oludeniz 2 days left",
+   "kilde": "Airtribune",
+   "navn": "Acro Battle Oludeniz",
+   "url": "https://airtribune.com/acro-battle-oludeniz/"
+  },
+  "airtribune:porterville-open-2026": {
+   "dato": "55 days left",
+   "funnet": "2026-10-19T17:52+00:00",
+   "id": "airtribune:porterville-open-2026",
+   "info": "Porterville Paragliding Open 2026, South African Pre-PWC 55 days left",
+   "kilde": "Airtribune",
+   "navn": "Porterville Paragliding Open 2026, South African Pre-PWC",
+   "url": "https://airtribune.com/porterville-open-2026/"
+  },
+  "airtribune:records-en-el-horizonte": {
+   "dato": "82 days left",
+   "funnet": "2026-10-19T17:52+00:00",
+   "id": "airtribune:records-en-el-horizonte",
+   "info": "Open distance challenge Apia 2027 82 days left",
+   "kilde": "Airtribune",
+   "navn": "Open distance challenge Apia 2027",
+   "url": "https://airtribune.com/records-en-el-horizonte/"
+  },
+  "airtribune:rs-paragliding-championship-encantado": {
+   "dato": "40 days left",
+   "funnet": "2026-10-19T17:52+00:00",
+   "id": "airtribune:rs-paragliding-championship-encantado",
+   "info": "RS Paragliding Championship Encantado 40 days left",
+   "kilde": "Airtribune",
+   "navn": "RS Paragliding Championship Encantado",
+   "url": "https://airtribune.com/rs-paragliding-championship-encantado/"
+  },
+  "airtribune:rs-paragliding-championship-final-sapiranga": {
+   "dato": "53 days left",
+   "funnet": "2026-10-19T17:52+00:00",
+   "id": "airtribune:rs-paragliding-championship-final-sapiranga",
+   "info": "RS Paragliding Championship Final Sapiranga 53 days left",
+   "kilde": "Airtribune",
+   "navn": "RS Paragliding Championship Final Sapiranga",
+   "url": "https://airtribune.com/rs-paragliding-championship-final-sapiranga/"
+  },
+  "airtribune:srs-2026-6": {
+   "dato": "19 days left",
+   "funnet": "2026-10-19T17:52+00:00",
+   "id": "airtribune:srs-2026-6",
+   "info": "SRS Advance Edition 2026 19 days left",
+   "kilde": "Airtribune",
+   "navn": "SRS Advance Edition 2026",
+   "url": "https://airtribune.com/srs-2026-6/"
+  }
+ }
+}
