@@ -253,10 +253,60 @@ def airtribune_detaljer(ev, kjent):
     return ev
 
 
+def parse_airtribune_data(page_html: str):
+    """Airtribune legger hele listen i sidekoden: window.ATDATA.eventLists = {...};
+    'next-events' har alle kommende konkurranser, 'current-events' de som pågår."""
+    m = re.search(r"window\.ATDATA\.eventLists\s*=\s*(\{.*?\});\s*\n", page_html, re.S)
+    if not m:
+        return None
+    try:
+        lists = json.loads(m.group(1))
+    except ValueError:
+        return None
+    events = {}
+    for key in ("current-events", "next-events"):
+        for e in (lists.get(key) or {}).get("content") or []:
+            if e.get("sport") not in (0, None):          # 0 = paragliding
+                continue
+            url = e.get("url") or ""
+            if e.get("status") == -1 and e.get("googleplus_url"):
+                url = e["googleplus_url"]                  # ekstern konkurranseside
+            slug = url.strip("/").split("/")[-1] if url.startswith("/") else str(e.get("id"))
+            start, slutt = e.get("start_date") or "", e.get("end_date") or ""
+            try:  # medlemskap o.l. som varer et helt år er ikke konkurranser
+                if (date.fromisoformat(slutt) - date.fromisoformat(start)).days > 45:
+                    continue
+            except ValueError:
+                pass
+            land = (e.get("country") or {})
+            steder = [clean(x) for x in (e.get("place") or "").split(",") if clean(x)]
+            sted = ", ".join(steder[:-1]) if len(steder) > 1 else ""
+            events[slug] = {
+                "id": "airtribune:" + slug,
+                "kilde": "Airtribune",
+                "navn": clean(e.get("title")),
+                "start": start, "slutt": slutt,
+                "sted": sted,
+                "land": finn_land(land.get("code"), land.get("ioc_code"), land.get("name"),
+                                  steder[-1] if steder else ""),
+                "kategori": "",   # Airtribune sin kategori-kode samsvarer ikke sikkert med FAI/CIVL
+                "deltakere": None,
+                "lat": e.get("lat"), "lon": e.get("lon"),
+                "url": urljoin("https://airtribune.com/", url),
+                "_detaljer": True,
+            }
+    return list(events.values())
+
+
 def get_airtribune(state=None):
-    events = parse_airtribune(fetch(AIRTRIBUNE_URL))
+    page = fetch(AIRTRIBUNE_URL)
+    events = parse_airtribune_data(page)
+    if events:
+        return events
+    # Reserve: les de synlige kortene og hent detaljer fra hver konkurranseside
+    print("Airtribune: fant ikke datalisten i siden, bruker reserve", file=sys.stderr)
     sett = (state or {}).get("sett", {})
-    return [airtribune_detaljer(e, sett.get(e["id"])) for e in events]
+    return [airtribune_detaljer(e, sett.get(e["id"])) for e in parse_airtribune(page)]
 
 
 # --------------------------------------------------------------------------
@@ -274,8 +324,14 @@ def _ord(tekst):
 
 
 def samme(a, b):
-    if a["kilde"] == b["kilde"] or not a.get("start") or a.get("start") != b.get("start"):
+    if not a.get("start") or a.get("start") != b.get("start"):
         return False
+    # Doble oppføringer på samme side må også ha samme sluttdato
+    if a["kilde"] == b["kilde"]:
+        if not a.get("slutt") or a.get("slutt") != b.get("slutt") or a.get("land") != b.get("land"):
+            return False
+        # ... og navnene må ligne (samme sted alene er ikke nok)
+        return len(_ord(a["navn"]) & _ord(b["navn"])) >= 1
     if a.get("land") and b.get("land") and a["land"] != b["land"]:
         return False
     return bool(_ord(a["navn"] + " " + a.get("sted", "")) & _ord(b["navn"] + " " + b.get("sted", "")))
@@ -370,11 +426,12 @@ def lag_data(grupper, sett, startet=""):
             "land": h.get("land") or next((x["land"] for x in g if x.get("land")), ""),
             "landnavn": LAND.get(h.get("land"), {}).get("navn", h.get("land", "")),
             "region": region(h),
-            "kategori": next((x["kategori"] for x in g if x.get("kategori")), ""),
+            "kategori": next((x["kategori"] for x in g if x.get("kategori") in ("Cat 1", "Cat 2")),
+                             next((x["kategori"] for x in g if x.get("kategori")), "")),
             "deltakere": next((x["deltakere"] for x in g if x.get("deltakere")), None),
             "lat": h.get("lat"), "lon": h.get("lon"),
             "funnet": min(sett.get(x["id"], {}).get("funnet", i_dag) for x in g),
-            "kilder": [{"kilde": x["kilde"], "url": x["url"]} for x in g],
+            "kilder": list({x["kilde"]: {"kilde": x["kilde"], "url": x["url"]} for x in reversed(g)}.values())[::-1],
         })
     ut = [e for e in ut if not e["slutt"] or e["slutt"] >= i_dag]
     ut.sort(key=lambda e: e["start"] or "9999")
@@ -424,6 +481,11 @@ def main():
 
     kjente_kilder = {v["kilde"] for v in state["sett"].values()}
     nye_kilder = {e["kilde"] for e in current} - kjente_kilder
+    # Versjon 2 leser hele Airtribune-listen (ikke bare de 6 første). Første kjøring
+    # med den lagrer de "nye" stille, siden de bare var usynlige før.
+    if state.get("versjon", 1) < 2 and not first_run and "Airtribune" in {e["kilde"] for e in current}:
+        nye_kilder.add("Airtribune")
+    state["versjon"] = 2
     gamle_ids = set(state["sett"])
 
     for ev in current:
@@ -450,7 +512,7 @@ def main():
                f"Fant {len(grupper)} kommende konkurranser. Du får varsel når nye dukker opp.")
     elif nye_kilder:
         antall = sum(1 for e in current if e["kilde"] in nye_kilder)
-        notify(f"{' og '.join(sorted(nye_kilder))} er med ✅",
+        notify(f"{' og '.join(sorted(nye_kilder))} oppdatert ✅",
                f"Leser nå {antall} kommende konkurranser derfra. Du får varsel når nye dukker opp.")
 
     if not first_run:
