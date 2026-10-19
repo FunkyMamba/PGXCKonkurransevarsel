@@ -153,19 +153,52 @@ def parse_civl_rows(page_html: str):
     return events
 
 
-def get_civl():
-    # CIVL sender bare selve listen når forespørselen er merket som et bakgrunnskall (AJAX)
-    params = [
-        ("search[page]", "0"), ("search[mode]", "list"), ("search[pg]", ""),
-        ("search[pg]", "paragliding-xc"), ("search[hg]", ""), ("search[dates]", "upcoming"),
-        ("search[q]", ""), ("search[dates_range]", ""), ("search[sanction_status]", ""),
-        ("search[country_id]", ""),
-    ]
-    r = requests.get(CIVL_URL, params=params, timeout=30,
-                     headers={**HEADERS, "X-Requested-With": "XMLHttpRequest"})
-    r.raise_for_status()
-    events = parse_civl_rows(r.text) or parse_civl(r.text)
+def parse_civl_json(data):
+    """CIVL svarer med JSON: {"events": [...], "pagesCount": n, ...}"""
+    events = []
+    for e in data.get("events", []):
+        link = e.get("eventLink") or ""
+        m = re.search(r"/event/([^/?#]+)", link)
+        if not m:
+            continue
+        dato = clean(f"{e.get('dateFrom', '')} - {e.get('dateTo', '')}").strip(" -")
+        sted = ", ".join(x for x in (e.get("cityTitle"), e.get("countryTitle")) if x)
+        kat = f"Cat {e['faiCategory']}" if e.get("faiCategory") else ""
+        events.append({
+            "id": "civl:" + m.group(1),
+            "kilde": "CIVL",
+            "navn": clean(e.get("eventTitle") or m.group(1)),
+            "dato": " · ".join(x for x in (dato, sted, kat) if x),
+            "info": clean(f"{e.get('primaryDisciplineLabel', '')} {sted}"),
+            "url": f"https://civlcomps.org/event/{m.group(1)}",
+        })
     return events
+
+
+def get_civl():
+    # CIVL sender konkurranselisten som JSON når forespørselen er merket som AJAX
+    alle = {}
+    for side in range(CIVL_MAKS_SIDER):
+        params = {**CIVL_PARAMS, "search[page]": str(side)}
+        r = requests.get(CIVL_URL, params=params, timeout=30,
+                         headers={**HEADERS, "X-Requested-With": "XMLHttpRequest",
+                                  "Accept": "application/json, text/javascript, */*"})
+        r.raise_for_status()
+        try:
+            data = r.json()
+            found = parse_civl_json(data)
+            sider = int(data.get("pagesCount") or 1)
+        except ValueError:  # ikke JSON – prøv HTML som reserve
+            found = parse_civl_rows(r.text) or parse_civl(r.text)
+            sider = 1
+        if not found and side == 0:
+            print(f"CIVL: status {r.status_code}, {len(r.text)} tegn, "
+                  f"starter med: {r.text[:200]!r}", file=sys.stderr)
+        for e in found:
+            alle[e["id"]] = e
+        if side + 1 >= sider or not found:
+            break
+    return list(alle.values())
 
 
 # --------------------------------------------------------------------------
