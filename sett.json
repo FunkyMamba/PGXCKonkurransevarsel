@@ -15,6 +15,11 @@
    "lat": 3.6235283823660263,
    "lon": -76.19440107969102,
    "navn": "2nd Copa Dedalo´s - Piedechinche 2027 powered By Sup Air",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 71
+   },
    "slutt": "2027-02-19",
    "start": "2027-02-13",
    "sted": "Palmira",
@@ -31,6 +36,7 @@
    "lat": null,
    "lon": null,
    "navn": "Acro Battle Oludeniz",
+   "reg": {},
    "slutt": "2026-10-25",
    "start": "2026-10-21",
    "sted": "Ölüdeniz Beach",
@@ -47,6 +53,11 @@
    "lat": 6.553232097191396,
    "lon": -75.82795264916719,
    "navn": "Andes Tour Hike and fly Challenge",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 80,
+    "pameldt": 31
+   },
    "slutt": "2027-03-03",
    "start": "2027-02-28",
    "sted": "Medellin",
@@ -63,6 +74,11 @@
    "lat": null,
    "lon": null,
    "navn": "Bright Open 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 100,
+    "pameldt": 96
+   },
    "slutt": "2027-02-19",
    "start": "2027-02-13",
    "sted": "Bright",
@@ -79,6 +95,11 @@
    "lat": 17.934128,
    "lon": 73.804221,
    "navn": "8th British Winter Open",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 112
+   },
    "slutt": "2027-03-02",
    "start": "2027-02-23",
    "sted": "Panchgani",
@@ -95,6 +116,11 @@
    "lat": 4.410870755003478,
    "lon": -76.15461811423302,
    "navn": "Copa Niviuk 2027 IV edición",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 130,
+    "pameldt": 302
+   },
    "slutt": "2027-02-03",
    "start": "2027-01-27",
    "sted": "Roldanillo",
@@ -111,6 +137,11 @@
    "lat": null,
    "lon": null,
    "navn": "Copa de las Americas Roldanillo 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 130,
+    "pameldt": 229
+   },
    "slutt": "2027-02-11",
    "start": "2027-02-04",
    "sted": "Roldanillo",
@@ -127,6 +158,11 @@
    "lat": null,
    "lon": null,
    "navn": "Corryong PG Open 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 85,
+    "pameldt": 90
+   },
    "slutt": "2027-02-27",
    "start": "2027-02-21",
    "sted": "Corryong",
@@ -143,6 +179,11 @@
    "lat": null,
    "lon": null,
    "navn": "Corryong Sports Cup 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 85,
+    "pameldt": 78
+   },
    "slutt": "2027-03-20",
    "start": "2027-03-13",
    "sted": "Corryong",
@@ -159,6 +200,11 @@
    "lat": 56.63180571224324,
    "lon": -4.828471618593692,
    "navn": "Glencoe Scottish National 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 30,
+    "pameldt": 7
+   },
    "slutt": "2027-05-02",
    "start": "2027-05-01",
    "sted": "Glencoe",
@@ -175,6 +221,11 @@
    "lat": -30.677434077146927,
    "lon": 150.65170711000903,
    "navn": "Manilla Pg Sports TDD 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 80,
+    "pameldt": 20
+   },
    "slutt": "2027-02-06",
    "start": "2027-01-31",
    "sted": "Manilla NSW",
@@ -191,6 +242,11 @@
    "lat": 43.95935627903631,
    "lon": 6.510604224255512,
    "navn": "11th Naviter Open 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 110,
+    "pameldt": 198
+   },
    "slutt": "2027-06-11",
    "start": "2027-06-05",
    "sted": "Gabrje, Tolmin",
@@ -207,6 +263,11 @@
    "lat": 9.430364759798803,
    "lon": -83.65731657434405,
    "navn": "Open Paragliding Costa Rica 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 67,
+    "pameldt": 3
+   },
    "slutt": "2027-02-28",
    "start": "2027-02-25",
    "sted": "San Isidro Perez zeledon SJ CRC",
@@ -223,6 +284,11 @@
    "lat": null,
    "lon": null,
    "navn": "PRIMERA VALIDA NACIONAL OPEN ROLDANILLO 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 130,
+    "pameldt": 208
+   },
    "slutt": "2027-01-26",
    "start": "2027-01-19",
    "sted": "Roldanillo",
@@ -239,6 +305,11 @@
    "lat": -33.004836,
    "lon": 18.992828,
    "navn": "Porterville Paragliding Open 2026, South African Pre-PWC",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 100,
+    "pameldt": 120
+   },
    "slutt": "2026-12-19",
    "start": "2026-12-13",
    "sted": "Porterville (Western Cape)",
@@ -255,6 +326,11 @@
    "lat": null,
    "lon": null,
    "navn": "Open distance challenge Apia 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 80,
+    "pameldt": 10
+   },
    "slutt": "2027-01-13",
    "start": "2027-01-09",
    "sted": "Apía",
@@ -271,6 +347,11 @@
    "lat": null,
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 80,
+    "pameldt": 0
+   },
    "slutt": "2026-11-29",
    "start": "2026-11-28",
    "sted": "Encantado",
@@ -287,6 +368,11 @@
    "lat": null,
    "lon": null,
    "navn": "RS Paragliding Championship Final Sapiranga",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 2
+   },
    "slutt": "2026-12-13",
    "start": "2026-12-11",
    "sted": "Sapiranga",
@@ -303,6 +389,11 @@
    "lat": 19.94640074879232,
    "lon": -103.7591329216957,
    "navn": "SRS Advance Edition 2026",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 274
+   },
    "slutt": "2026-11-14",
    "start": "2026-11-07",
    "sted": "Tapalpa",
@@ -319,6 +410,11 @@
    "lat": 45.947600349157895,
    "lon": 13.710576350886624,
    "navn": "SRS Slovenia 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 100,
+    "pameldt": 117
+   },
    "slutt": "2027-03-21",
    "start": "2027-03-15",
    "sted": "Nova Gorica, Lijak",
@@ -335,6 +431,11 @@
    "lat": null,
    "lon": null,
    "navn": "SRS France, Montclar 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 0
+   },
    "slutt": "2027-06-27",
    "start": "2027-06-20",
    "sted": "Montclar",
@@ -351,6 +452,11 @@
    "lat": null,
    "lon": null,
    "navn": "SRS North Macedonia 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 0
+   },
    "slutt": "2027-08-29",
    "start": "2027-08-22",
    "sted": "Krushevo",
@@ -367,6 +473,11 @@
    "lat": null,
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 120,
+    "pameldt": 0
+   },
    "slutt": "2027-09-19",
    "start": "2027-09-12",
    "sted": "ST. Andre Les Alpes",
@@ -383,6 +494,11 @@
    "lat": 46.310204,
    "lon": 13.112765,
    "navn": "1st SRS World Sports Final",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 125,
+    "pameldt": 155
+   },
    "slutt": "2027-07-24",
    "start": "2027-07-17",
    "sted": "Gemona",
@@ -399,6 +515,11 @@
    "lat": 56.633191706950754,
    "lon": -4.825649855439416,
    "navn": "X-Scotia Hike and Fly 2027",
+   "reg": {
+    "hentet": "2026-10-19T19:28+00:00",
+    "maks": 30,
+    "pameldt": 10
+   },
    "slutt": "2027-05-02",
    "start": "2027-05-01",
    "sted": "Glencoe",
@@ -414,6 +535,11 @@
    "lat": 4.4091166,
    "lon": -76.1543744,
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
+   "reg": {
+    "maks": null,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 10
+   },
    "slutt": "2027-07-05",
    "start": "2027-07-01",
    "sted": "Roldanillo",
@@ -429,6 +555,7 @@
    "lat": 29.3582395,
    "lon": 117.2735595,
    "navn": "2026 China Paragliding Open",
+   "reg": {},
    "slutt": "2026-10-19",
    "start": "2026-10-12",
    "sted": "Jingdezhen",
@@ -444,6 +571,11 @@
    "lat": 34.04909445,
    "lon": 133.92309666,
    "navn": "2026 SKY GRAND PRIX in YOSHINOGAWA",
+   "reg": {
+    "maks": 80,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 97
+   },
    "slutt": "2026-11-03",
    "start": "2026-10-31",
    "sted": "Higashimiyoshi-cho",
@@ -459,6 +591,11 @@
    "lat": 19.18819344,
    "lon": -100.12978467,
    "navn": "22th Monarca Paragliding Open 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 281
+   },
    "slutt": "2027-01-16",
    "start": "2027-01-10",
    "sted": "Valle De Bravo",
@@ -474,6 +611,11 @@
    "lat": 3.6358042,
    "lon": -76.1774881,
    "navn": "2nd CUP DEDALO´S - PIEDECHINCHE 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-02-19",
    "start": "2027-02-13",
    "sted": "Piedechinche",
@@ -489,6 +631,11 @@
    "lat": 36.88150024,
    "lon": -5.39981985,
    "navn": "German OPEN - Sierra de Cádiz - Algodonales 2027",
+   "reg": {
+    "maks": 125,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 2
+   },
    "slutt": "2027-09-18",
    "start": "2027-09-12",
    "sted": "Algodonales",
@@ -504,6 +651,11 @@
    "lat": 38.24610572,
    "lon": -2.72267818,
    "navn": "Nordic Paragliding Open Yelmo 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 44
+   },
    "slutt": "2027-09-03",
    "start": "2027-08-28",
    "sted": "Segura De La Sierra",
@@ -519,6 +671,11 @@
    "lat": 28.12182999,
    "lon": -16.72464943,
    "navn": "IV OPEN Tenerife XPO 2026",
+   "reg": {
+    "maks": 122,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 341
+   },
    "slutt": "2026-12-08",
    "start": "2026-12-04",
    "sted": "Adeje",
@@ -534,6 +691,11 @@
    "lat": 16.9467205,
    "lon": 101.12880254,
    "navn": "AFA Asian XC League 2026, Thailand - Grand Final",
+   "reg": {
+    "maks": 80,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 118
+   },
    "slutt": "2026-12-12",
    "start": "2026-12-07",
    "sted": "Phu Thap Boek, Phetchabun",
@@ -549,6 +711,11 @@
    "lat": 8.57296927,
    "lon": -71.18389355,
    "navn": "Andes Open 2027 – FAI Category 2 & National Championship",
+   "reg": {
+    "maks": 40,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 16
+   },
    "slutt": "2027-01-09",
    "start": "2027-01-05",
    "sted": "Loma De Los Angeles, Merida",
@@ -564,6 +731,11 @@
    "lat": -25.79215492,
    "lon": 31.04110107,
    "navn": "Barberton Paragliding Open 2027",
+   "reg": {
+    "maks": 100,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 12
+   },
    "slutt": "2027-06-19",
    "start": "2027-06-13",
    "sted": "Barberton, South Africa",
@@ -579,6 +751,11 @@
    "lat": -36.7285335,
    "lon": 146.9607724,
    "navn": "Bright Open 2027",
+   "reg": {
+    "maks": 100,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-02-19",
    "start": "2027-02-13",
    "sted": "Bright",
@@ -594,6 +771,11 @@
    "lat": 19.93754667,
    "lon": -103.65690607,
    "navn": "Calaca Fest 2026",
+   "reg": {
+    "maks": 100,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 39
+   },
    "slutt": "2026-10-31",
    "start": "2026-10-28",
    "sted": "Tapalpa - Jalisco",
@@ -609,6 +791,11 @@
    "lat": 40.46339417,
    "lon": -5.32819366,
    "navn": "Campeonato de España Biplaza, Sport y Cat. B Piedrahíta 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 56
+   },
    "slutt": "2027-08-07",
    "start": "2027-08-01",
    "sted": "Piedrahíta",
@@ -624,6 +811,11 @@
    "lat": 38.80049896,
    "lon": -5.16943979,
    "navn": "Campeonato de España distancia libre Zarzacapilla 2027",
+   "reg": {
+    "maks": 70,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 36
+   },
    "slutt": "2027-06-17",
    "start": "2027-06-13",
    "sted": "Zarza-Capilla",
@@ -639,6 +831,11 @@
    "lat": 40.13788986,
    "lon": -6.00126314,
    "navn": "Campeonato de España de Parapente Pitolero 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 51
+   },
    "slutt": "2027-07-10",
    "start": "2027-07-03",
    "sted": "Cabezabellosa",
@@ -654,6 +851,11 @@
    "lat": -29.7824554,
    "lon": -67.1147124,
    "navn": "CAP La Rioja 2027",
+   "reg": {
+    "maks": 120,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-10-16",
    "start": "2027-10-09",
    "sted": "LA RIOJA",
@@ -669,6 +871,11 @@
    "lat": 19.1849101,
    "lon": -100.1512633,
    "navn": "Club Peñón Open 2026",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 92
+   },
    "slutt": "2026-12-19",
    "start": "2026-12-14",
    "sted": "Valle De Bravo",
@@ -684,6 +891,11 @@
    "lat": 4.4091166,
    "lon": -76.1543744,
    "navn": "Copa de las Americas Roldanillo 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-02-11",
    "start": "2027-02-04",
    "sted": "Roldanillo",
@@ -699,6 +911,11 @@
    "lat": 4.4091166,
    "lon": -76.1543744,
    "navn": "Copa Niviuk 2027 IV Edicion",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-02-03",
    "start": "2027-01-27",
    "sted": "Roldanillo",
@@ -714,6 +931,11 @@
    "lat": 4.4091166,
    "lon": -76.1543744,
    "navn": "Copa Niviuk 2027 IV Edition",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-02-03",
    "start": "2027-01-27",
    "sted": "Roldanillo",
@@ -729,6 +951,11 @@
    "lat": -36.185801,
    "lon": 147.8966142,
    "navn": "Corryong PG Open 2027",
+   "reg": {
+    "maks": 85,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-02-27",
    "start": "2027-02-21",
    "sted": "Corryong",
@@ -744,6 +971,11 @@
    "lat": -36.185801,
    "lon": 147.8966142,
    "navn": "Corryong sports Cup 2027",
+   "reg": {
+    "maks": 85,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-03-20",
    "start": "2027-03-13",
    "sted": "Corryong",
@@ -759,6 +991,11 @@
    "lat": -36.185801,
    "lon": 147.8966142,
    "navn": "Corryong Sports Cup 2027",
+   "reg": {
+    "maks": 85,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-03-20",
    "start": "2027-03-13",
    "sted": "Corryong",
@@ -774,13 +1011,18 @@
    "lat": -26.5159613,
    "lon": -49.0536133,
    "navn": "Final Stage of the 2026 Southern Brazilian Championship - Jaraguá do Sul",
+   "reg": {
+    "maks": 90,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2026-11-22",
    "start": "2026-11-20",
    "sted": "Morro Das Antenas, Jaragua Do Sul",
    "url": "https://civlcomps.org/event/final-stage-of-the-2026-southern-brazilian-championship-jara"
   },
   "civl:flymaster-open-2027": {
-   "deltakere": 51,
+   "deltakere": 54,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:flymaster-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -789,6 +1031,11 @@
    "lat": 41.36498036,
    "lon": 21.25293436,
    "navn": "Flymaster Open - Macedonian Nationals 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 54
+   },
    "slutt": "2027-07-24",
    "start": "2027-07-18",
    "sted": "Krushevo",
@@ -804,6 +1051,11 @@
    "lat": 41.36466364,
    "lon": 21.2530205,
    "navn": "Gin Performance 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 21
+   },
    "slutt": "2027-08-21",
    "start": "2027-08-15",
    "sted": "Krushevo",
@@ -819,6 +1071,11 @@
    "lat": -29.6423259,
    "lon": -53.2494005,
    "navn": "II Etapa do Campeonato Sul-Brasileiro de Parapente 2026",
+   "reg": {
+    "maks": 85,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2026-11-02",
    "start": "2026-10-31",
    "sted": "Agudo",
@@ -834,6 +1091,11 @@
    "lat": -29.2392716,
    "lon": -51.8744817,
    "navn": "III Etapa do Campeonato Gaúcho de Parapente",
+   "reg": {
+    "maks": 90,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2026-11-29",
    "start": "2026-11-28",
    "sted": "Encantado",
@@ -849,6 +1111,11 @@
    "lat": 5.8482755,
    "lon": 100.4151899,
    "navn": "Jerai International Paragliding XC Championship 2027",
+   "reg": {
+    "maks": 80,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 33
+   },
    "slutt": "2027-01-31",
    "start": "2027-01-27",
    "sted": "Yan, Kedah",
@@ -864,6 +1131,11 @@
    "lat": 37.7400607,
    "lon": -3.6450264,
    "navn": "3rd FAI Junior World Paragliding Championships",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2028-05-22",
    "start": "2028-05-14",
    "sted": "Pegalajar",
@@ -879,6 +1151,11 @@
    "lat": 45.70998551,
    "lon": 5.9581089,
    "navn": "Level Up Open 2027",
+   "reg": {
+    "maks": 96,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-05-28",
    "start": "2027-05-22",
    "sted": "Trevegnin",
@@ -894,6 +1171,11 @@
    "lat": 42.50461715,
    "lon": 0.80049031,
    "navn": "Liga Nacional Boi 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 74
+   },
    "slutt": "2027-05-16",
    "start": "2027-05-12",
    "sted": "Barruera",
@@ -909,6 +1191,11 @@
    "lat": 37.8094902,
    "lon": -2.53966308,
    "navn": "Liga Nacional Huéscar 2027",
+   "reg": {
+    "maks": 110,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 47
+   },
    "slutt": "2027-06-06",
    "start": "2027-06-02",
    "sted": "Huéscar",
@@ -924,6 +1211,11 @@
    "lat": 28.12182999,
    "lon": -16.72464943,
    "navn": "Liga Nacional Tenerife 2027",
+   "reg": {
+    "maks": 122,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 39
+   },
    "slutt": "2027-12-08",
    "start": "2027-12-04",
    "sted": "Adeje",
@@ -939,6 +1231,11 @@
    "lat": -26.82207108,
    "lon": -65.37043762,
    "navn": "Loma Bola Funny Open 2026",
+   "reg": {
+    "maks": 100,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 41
+   },
    "slutt": "2026-11-22",
    "start": "2026-11-19",
    "sted": "Loma Bola, Tucuman",
@@ -954,6 +1251,11 @@
    "lat": 10.1524823,
    "lon": -68.5648854,
    "navn": "Open Nirgua 2026",
+   "reg": {
+    "maks": 50,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 22
+   },
    "slutt": "2026-11-07",
    "start": "2026-11-01",
    "sted": "Nirgua",
@@ -969,6 +1271,11 @@
    "lat": 41.8232206,
    "lon": -7.7923142,
    "navn": "19th FAI European Paragliding Championships",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2028-08-04",
    "start": "2028-07-22",
    "sted": "Montalegre",
@@ -984,6 +1291,11 @@
    "lat": 19.9466635,
    "lon": -103.7761059,
    "navn": "8th FAI Pan American Paragliding Championships",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2028-11-19",
    "start": "2028-11-11",
    "sted": "Tapalpa - Jalisco",
@@ -999,6 +1311,11 @@
    "lat": 43.3066993,
    "lon": 21.8871172,
    "navn": "20th FAI World Paragliding Championships",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 1
+   },
    "slutt": "2027-08-07",
    "start": "2027-07-26",
    "sted": "PANTELEJ-NIŠ",
@@ -1014,6 +1331,11 @@
    "lat": 36.06523,
    "lon": -119.0167679,
    "navn": "Porterville Paragliding Open 2026, South Africa PWC",
+   "reg": {
+    "maks": 120,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2026-12-19",
    "start": "2026-12-13",
    "sted": "Porterville",
@@ -1029,6 +1351,7 @@
    "lat": -21.1677694,
    "lon": 55.2881932,
    "navn": "PrePWC Open de la Reunion 2026",
+   "reg": {},
    "slutt": "2026-10-24",
    "start": "2026-10-18",
    "sted": "SAINT LEU",
@@ -1044,6 +1367,11 @@
    "lat": 4.4091166,
    "lon": -76.1543744,
    "navn": "PRIMERA VALIDA NACIONAL OPEN ROLDANILLO 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-01-26",
    "start": "2027-01-19",
    "sted": "Roldanillo",
@@ -1059,6 +1387,11 @@
    "lat": -35.20144396,
    "lon": -60.43229695,
    "navn": "Regional Bragado XC 2026",
+   "reg": {
+    "maks": 40,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 19
+   },
    "slutt": "2026-11-15",
    "start": "2026-11-14",
    "sted": "Bragado",
@@ -1074,6 +1407,11 @@
    "lat": -27.1335472,
    "lon": -51.23435,
    "navn": "5th Stage of the 2026 Santa Catarina / Paranaense Championship - Tangará SC",
+   "reg": {
+    "maks": 90,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 5
+   },
    "slutt": "2026-11-29",
    "start": "2026-11-28",
    "sted": "Morro Agudo, Tangará",
@@ -1089,6 +1427,11 @@
    "lat": 37.9948357,
    "lon": 13.282689,
    "navn": "Sicily open",
+   "reg": {
+    "maks": 120,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 356
+   },
    "slutt": "2027-11-01",
    "start": "2027-10-28",
    "sted": "Piana Dégli Albanesi",
@@ -1104,6 +1447,11 @@
    "lat": 19.9466635,
    "lon": -103.7761059,
    "navn": "SRS Advance Edition, Mexico",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2026-11-14",
    "start": "2026-11-07",
    "sted": "Tapalpa",
@@ -1119,6 +1467,11 @@
    "lat": 28.12182999,
    "lon": -16.72464943,
    "navn": "Tenerife XPO 2027",
+   "reg": {
+    "maks": 122,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 34
+   },
    "slutt": "2027-12-14",
    "start": "2027-12-10",
    "sted": "Adeje",
@@ -1134,6 +1487,11 @@
    "lat": 37.7400607,
    "lon": -3.6450264,
    "navn": "Test event of the 3rd FAI Junior World Paragliding Championships OPEN Jaén Paraíso Interior Pre-PWC",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 41
+   },
    "slutt": "2027-04-30",
    "start": "2027-04-26",
    "sted": "Pegalajar",
@@ -1149,6 +1507,11 @@
    "lat": 41.8804694,
    "lon": -7.7203028,
    "navn": "Test event for 19th FAI European PG Championships - Portuguese PG Championship 2027",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
    "sted": "SERRA DO LAROUCO",
@@ -1164,6 +1527,11 @@
    "lat": 19.9466635,
    "lon": -103.7761059,
    "navn": "Test event of the 8th FAI Pan American Paragliding Championships",
+   "reg": {
+    "maks": 130,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-11-13",
    "start": "2027-11-06",
    "sted": "Tapalpa - Jalisco",
@@ -1179,6 +1547,11 @@
    "lat": 45.9598968,
    "lon": 13.7203389,
    "navn": "Vipava Valley Open 2027",
+   "reg": {
+    "maks": 120,
+    "maks_hentet": "2026-10-19T19:28+00:00",
+    "pameldt": 0
+   },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
    "sted": "Lijak Nova Gorica",
