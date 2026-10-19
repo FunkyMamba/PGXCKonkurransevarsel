@@ -1,4 +1,4 @@
-name: Sjekk nye konkurranser
+name: .github/workflows/Sjekk nye konkurranser
 
 on:
   schedule:
