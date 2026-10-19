@@ -31,11 +31,15 @@ og sender push-varsel til mobilen når en ny konkurranse dukker opp. Gratis, og 
   Første kjøring lagrer bare alt som finnes, så du ikke får 50 varsler på en gang.
 - Etter dette går den av seg selv hver tredje time.
 
-### 6. (Valgfritt) Nettside med samlet liste
+### 6. Nettsiden PG XC-kalender
+Skriptet lager `docs/index.html` med alle kommende konkurranser fra begge kildene, med søk,
+filtre (region, kategori, kilde) og stjernemerking. Malen for siden er `side.html`, og landnavnene ligger i `land.py`.
+- GitHub Pages er gratis for **offentlige** repoer. For et privat repo krever det et betalt abonnement.
+  Repoet inneholder ingen hemmeligheter (ntfy-emnet ligger som secret), så det er trygt å gjøre det offentlig:
+  **Settings → General → Danger Zone → Change visibility → Public**.
 - **Settings → Pages → Source: Deploy from a branch → Branch: main, mappe /docs → Save**.
-- Etter noen minutter finner du listen på adressen GitHub viser der.
-  For et privat repo krever Pages et betalt GitHub-abonnement; ellers kan du gjøre repoet offentlig
-  (ntfy-emnet ligger trygt som hemmelighet uansett).
+- Etter et par minutter vises adressen øverst på Pages-siden, f.eks. `https://brukernavn.github.io/PGXCKonkurransevarsel/`.
+  Legg den til på hjemskjermen på mobilen, så fungerer den som en app.
 
 ## For mange varsler? Juster øverst i `monitor.py`
 - `EKSKLUDER_ORD` – ord i navnet som gjør at konkurransen ignoreres (acro m.m. er med fra før).
