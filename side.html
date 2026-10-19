@@ -14,7 +14,7 @@
   --bg:#f3f5f7; --surface:#ffffff; --ink:#15202b; --muted:#5b6876; --line:#d9dfe6;
   --accent:#e0a100; --accent-ink:#5a4100; --accent-soft:#fff3cf;
   --cat1:#7a2f8f; --cat1-soft:#f3e6f7; --cat2:#1f5fa8; --cat2-soft:#e3eefa; --nocat:#5b6876; --nocat-soft:#eceff3;
-  --new:#1c7a4a; --new-soft:#dff3e8; --star:#e0a100;
+  --new:#1c7a4a; --new-soft:#dff3e8; --star:#e0a100; --full:#a3341f; --full-soft:#fbe4de;
   --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
   --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
@@ -24,12 +24,12 @@
   --bg:#0f151b; --surface:#16202a; --ink:#e6ecf2; --muted:#93a1b0; --line:#26323e;
   --accent:#f0b733; --accent-ink:#ffe39a; --accent-soft:#3a2f12;
   --cat1:#d9a3ea; --cat1-soft:#33203b; --cat2:#8dbbf0; --cat2-soft:#172a40; --nocat:#a3afbc; --nocat-soft:#222d38;
-  --new:#6fd5a0; --new-soft:#143327; --star:#f0b733; color-scheme:dark}}
+  --new:#6fd5a0; --new-soft:#143327; --star:#f0b733; --full:#f2a08e; --full-soft:#3d1d17; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f151b; --surface:#16202a; --ink:#e6ecf2; --muted:#93a1b0; --line:#26323e;
   --accent:#f0b733; --accent-ink:#ffe39a; --accent-soft:#3a2f12;
   --cat1:#d9a3ea; --cat1-soft:#33203b; --cat2:#8dbbf0; --cat2-soft:#172a40; --nocat:#a3afbc; --nocat-soft:#222d38;
-  --new:#6fd5a0; --new-soft:#143327; --star:#f0b733; color-scheme:dark}
+  --new:#6fd5a0; --new-soft:#143327; --star:#f0b733; --full:#f2a08e; --full-soft:#3d1d17; color-scheme:dark}
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -81,6 +81,9 @@ main{padding-block:8px 48px}
 .tag.c2{background:var(--cat2-soft);color:var(--cat2)}
 .tag.new{background:var(--new-soft);color:var(--new)}
 .tag.soon{background:var(--accent-soft);color:var(--accent-ink)}
+.tag.full{background:var(--full-soft);color:var(--full)}
+.tag.open{background:var(--new-soft);color:var(--new);font-weight:600}
+.tag.wait{background:transparent;color:var(--muted);border:1px dashed var(--line)}
 .src{font:500 12px var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:1px}
 .src:hover{color:var(--ink);border-color:var(--ink)}
 .star{width:36px;height:36px;border-radius:50%;border:0;background:none;cursor:pointer;display:grid;place-items:center;color:var(--muted)}
@@ -129,7 +132,17 @@ const store = {
   get(k,d){try{const v=localStorage.getItem("pgxc:"+k);return v?JSON.parse(v):d}catch(e){return d}},
   set(k,v){try{localStorage.setItem("pgxc:"+k,JSON.stringify(v))}catch(e){}}
 };
-const st = Object.assign({q:"",region:[],kat:[],kilde:[],fav:false}, store.get("filter",{}));
+const st = Object.assign({q:"",region:[],kat:[],kilde:[],pam:[],fav:false}, store.get("filter",{}));
+if(!Array.isArray(st.pam)) st.pam=[];
+const PAM = ["Påmelding åpnet nylig","Ledige plasser","Venteliste","Ingen påmeldt ennå"];
+function pamStatus(e){
+  const n=e.pameldt, m=e.maks;
+  if(n==null) return "";
+  if(n===0) return "Ingen påmeldt ennå";
+  if(m && n>=m) return "Venteliste";
+  return "Ledige plasser";
+}
+function nyligApnet(e){ return e.apnet && (Date.now()-new Date(e.apnet))/864e5 < 7; }
 let favs = new Set(store.get("favs",[]));
 let ALL = [];
 
@@ -167,6 +180,7 @@ function matches(e){
   if(st.region.length && !st.region.includes(e.region)) return false;
   if(st.kat.length && !st.kat.includes(e.kategori||"Ukjent")) return false;
   if(st.kilde.length && !e.kilder.some(k=>st.kilde.includes(k.kilde))) return false;
+  if(st.pam.length && !st.pam.some(p=> p==="Påmelding åpnet nylig" ? nyligApnet(e) : pamStatus(e)===p)) return false;
   if(st.q){
     const hay=(e.navn+" "+e.sted+" "+e.landnavn+" "+e.land).toLowerCase();
     if(!st.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w))) return false;
@@ -182,15 +196,25 @@ function renderChips(){
   const cnt=(f)=>ALL.filter(f).length;
   $("#chips-region").innerHTML =
     REGIONER.filter(r=>ALL.some(e=>e.region===r)).map(r=>chip("region",r,r,cnt(e=>e.region===r))).join("");
-  const any = st.q||st.region.length||st.kat.length||st.kilde.length||st.fav;
+  const any = st.q||st.region.length||st.kat.length||st.kilde.length||st.pam.length||st.fav;
   $("#chips-other").innerHTML =
     chip("fav","","★ Mine",favs.size) + `<span class="sep"></span>` +
     KAT.filter(k=>ALL.some(e=>e.kategori===k)).map(k=>chip("kat",k,k,cnt(e=>e.kategori===k))).join("") +
     `<span class="sep"></span>` +
     ["CIVL","Airtribune"].map(s=>chip("kilde",s,s,cnt(e=>e.kilder.some(k=>k.kilde===s)))).join("") +
+    `<span class="sep"></span>` +
+    PAM.map(p=>[p, p==="Påmelding åpnet nylig"?cnt(nyligApnet):cnt(e=>pamStatus(e)===p)]).filter(([p,n])=>n>0)
+       .map(([p,n])=>chip("pam",p,p,n)).join("") +
     (any?`<button class="reset" id="reset">Nullstill</button>`:"");
 }
 
+function regTag(e){
+  const n=e.pameldt, m=e.maks, s=pamStatus(e);
+  if(!s) return "";
+  if(s==="Ingen påmeldt ennå") return `<span class="tag wait" title="Påmeldingen har trolig ikke åpnet">ingen påmeldt ennå${m?` · ${m} plasser`:""}</span>`;
+  if(s==="Venteliste") return `<span class="tag full" title="Flere påmeldt enn plasser">venteliste · ${n}/${m}</span>`;
+  return `<span class="tag">${m?`${n}/${m}`:n} påmeldt</span>`;
+}
 const STAR = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 
 function renderList(){
@@ -211,7 +235,8 @@ function renderList(){
         isNew(e)?`<span class="tag new">ny</span>`:"",
         rl?`<span class="tag ${rl.c}">${rl.t}</span>`:"",
         e.kategori?`<span class="tag ${katCls}">${esc(e.kategori==="Ikke sanksjonert"?"ikke sanksj.":e.kategori)}</span>`:"",
-        e.deltakere?`<span class="tag">${e.deltakere} påmeldt</span>`:"",
+        nyligApnet(e)?`<span class="tag open">påmelding åpnet</span>`:"",
+        regTag(e),
       ].join("");
       const src = e.kilder.map(s=>`<a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.kilde)} ↗</a>`).join("");
       html += `<article class="ev${fav?" fav":""}">
@@ -240,7 +265,7 @@ document.addEventListener("click", ev=>{
     render(); return; }
   const s = ev.target.closest(".star");
   if(s){ const k=s.dataset.k; favs.has(k)?favs.delete(k):favs.add(k); store.set("favs",[...favs]); render(); return; }
-  if(ev.target.id==="reset"||ev.target.id==="reset2"){ Object.assign(st,{q:"",region:[],kat:[],kilde:[],fav:false}); $("#q").value=""; render(); }
+  if(ev.target.id==="reset"||ev.target.id==="reset2"){ Object.assign(st,{q:"",region:[],kat:[],kilde:[],pam:[],fav:false}); $("#q").value=""; render(); }
 });
 $("#q").addEventListener("input", e=>{ st.q=e.target.value.trim(); renderList(); renderChips(); store.set("filter",st); });
 

@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -373,6 +374,97 @@ def skal_varsles(ev) -> bool:
     return True
 
 
+# --------------------------------------------------------------------------
+# Påmelding – antall påmeldte og maks plasser.
+# CIVL: påmeldte følger med i listen; maks plasser står på konkurransesiden
+#       (<span class="count">120</span><span>max allowed</span>), hentes ukentlig.
+# Airtribune: konkurransesiden har window.ATDATA.pilots med "totalRegistered" og
+#       "allowed2" (maks plasser). Vi leser bare disse to tallene, ikke pilotlisten.
+#       Hentes hver kjøring mens ingen er påmeldt, ellers én gang i døgnet.
+# Påmeldingen regnes som åpnet når antall påmeldte går fra 0 til 1 eller flere.
+# --------------------------------------------------------------------------
+
+PAUSE_MELLOM_OPPSLAG = 1.0  # sekunder, for å være snill mot sidene
+
+
+def _alder_timer(iso):
+    try:
+        return (datetime.now(timezone.utc) - datetime.fromisoformat(iso)).total_seconds() / 3600
+    except (TypeError, ValueError):
+        return 1e9
+
+
+def civl_maks(url):
+    html = fetch(url)
+    maks = re.search(r'class="count">\s*(\d+)\s*</span>\s*<span>\s*max allowed', html, re.I)
+    pam = re.search(r'class="count">\s*(\d+)\s*</span>\s*<span>\s*pilots registered', html, re.I)
+    return (int(maks.group(1)) if maks else None), (int(pam.group(1)) if pam else None)
+
+
+def airtribune_pamelding(url):
+    html = fetch(url.rstrip("/") + "/info")
+    blokk = re.search(r"window\.ATDATA\.pilots\s*=\s*", html)
+    if not blokk:
+        return None, None
+    rest = html[blokk.end(): blokk.end() + 2_000_000]
+    tot = re.search(r'"totalRegistered"\s*:\s*(\d+)', rest)
+    maks = re.search(r'"allowed2"\s*:\s*(\d+)', rest)
+    return (int(tot.group(1)) if tot else None), (int(maks.group(1)) if maks else None)
+
+
+def oppdater_pamelding(current, tidligere_reg, now):
+    """Fyller ev["reg"] = {pameldt, maks, ...} og returnerer konkurransene som nettopp åpnet."""
+    i_dag = date.today().isoformat()
+    apnet = []
+    oppslag = 0
+    for ev in current:
+        reg = dict(tidligere_reg.get(ev["id"]) or {})
+        forrige = reg.get("pameldt")
+        if not ev.get("start") or ev["start"] < i_dag or not er_xc(ev):
+            ev["reg"] = reg
+            continue
+        try:
+            if ev["kilde"] == "CIVL":
+                reg["pameldt"] = ev.get("deltakere") or 0
+                if reg.get("maks") is None or _alder_timer(reg.get("maks_hentet")) > 24 * 7:
+                    time.sleep(PAUSE_MELLOM_OPPSLAG)
+                    maks, pam = civl_maks(ev["url"])
+                    oppslag += 1
+                    reg["maks"] = maks
+                    reg["maks_hentet"] = now
+                    if pam is not None and not ev.get("deltakere"):
+                        reg["pameldt"] = pam
+            elif ev["kilde"] == "Airtribune" and "airtribune.com" in ev["url"]:
+                if forrige in (None, 0) or _alder_timer(reg.get("hentet")) > 20:
+                    time.sleep(PAUSE_MELLOM_OPPSLAG)
+                    pam, maks = airtribune_pamelding(ev["url"])
+                    oppslag += 1
+                    if pam is not None:
+                        reg["pameldt"] = pam
+                    if maks:
+                        reg["maks"] = maks
+                    reg["hentet"] = now
+        except Exception as exc:
+            print(f"Påmeldingstall feilet for {ev['url']}: {exc}", file=sys.stderr)
+        if forrige == 0 and (reg.get("pameldt") or 0) > 0:
+            reg["apnet"] = now
+            apnet.append(ev)
+        ev["reg"] = reg
+    print(f"Påmelding: {oppslag} konkurransesider sjekket, {len(apnet)} har åpnet")
+    return apnet
+
+
+def gruppe_reg(g):
+    """Velger påmeldingstallene fra kilden med flest påmeldte."""
+    regs = [x.get("reg") or {} for x in g]
+    beste = max(regs, key=lambda r: (r.get("pameldt") or 0, r.get("maks") or 0), default={})
+    return {
+        "pameldt": beste.get("pameldt"),
+        "maks": beste.get("maks") or next((r["maks"] for r in regs if r.get("maks")), None),
+        "apnet": max((r["apnet"] for r in regs if r.get("apnet")), default=""),
+    }
+
+
 def notify(title, message, url=None, priority="default", tags="parachute"):
     if not NTFY_TOPIC:
         print(f"[ingen NTFY_TOPIC] {title}: {message}")
@@ -428,7 +520,7 @@ def lag_data(grupper, sett, startet=""):
             "region": region(h),
             "kategori": next((x["kategori"] for x in g if x.get("kategori") in ("Cat 1", "Cat 2")),
                              next((x["kategori"] for x in g if x.get("kategori")), "")),
-            "deltakere": next((x["deltakere"] for x in g if x.get("deltakere")), None),
+            **{k: v for k, v in gruppe_reg(g).items()},
             "lat": h.get("lat"), "lon": h.get("lon"),
             "funnet": min(sett.get(x["id"], {}).get("funnet", i_dag) for x in g),
             "kilder": list({x["kilde"]: {"kilde": x["kilde"], "url": x["url"]} for x in reversed(g)}.values())[::-1],
@@ -487,11 +579,14 @@ def main():
         nye_kilder.add("Airtribune")
     state["versjon"] = 2
     gamle_ids = set(state["sett"])
+    tidligere_reg = {k: v.get("reg") for k, v in state["sett"].items() if v.get("reg")}
 
     for ev in current:
         tidligere = state["sett"].get(ev["id"], {})
         ev["funnet"] = tidligere.get("funnet", now)
         state["sett"][ev["id"]] = ev
+
+    apnet_ids = {e["id"] for e in oppdater_pamelding(current, tidligere_reg, now)}
 
     grupper = slå_sammen([e for e in current if er_xc(e)])
 
@@ -524,6 +619,29 @@ def main():
                 notify(f"Ny: {e['navn']}", beskriv(e), url=e["url"])
 
     print(f"Nye relevante: {len(new)}")
+
+    # Påmelding åpnet – ett varsel per konkurranse (også om den ligger på begge sidene)
+    apnet = []
+    for g in grupper:
+        if not any(x["id"] in apnet_ids for x in g):
+            continue
+        if any((tidligere_reg.get(x["id"]) or {}).get("apnet") for x in g):
+            continue  # allerede varslet via den andre kilden
+        h = g[0]
+        if skal_varsles(h):
+            r = gruppe_reg(g)
+            kilde = next(x for x in g if x["id"] in apnet_ids)
+            apnet.append((h, r, kilde["url"]))
+    if not first_run:
+        if len(apnet) > MAKS_ENKELTVARSLER:
+            liste = "\n".join(f"• {h['navn']} ({beskriv(h)})" for h, r, u in apnet[:20])
+            notify(f"Påmelding åpnet for {len(apnet)} konkurranser 📝", liste, tags="memo")
+        else:
+            for h, r, u in apnet:
+                plasser = f"{r['pameldt']} påmeldt" + (f" av {r['maks']} plasser" if r.get("maks") else "")
+                notify(f"Påmelding åpnet: {h['navn']} 📝", f"{plasser} · {beskriv(h)}",
+                       url=u, priority="high", tags="memo")
+    print(f"Påmelding åpnet: {len(apnet)}")
 
     # Rydd bort gamle konkurranser fra lagringen (over et år etter slutt)
     grense = (date.today() - timedelta(days=365)).isoformat()
