@@ -128,18 +128,44 @@ def parse_civl(page_html: str, base: str = "https://civlcomps.org/"):
     return list(events.values())
 
 
+def parse_civl_rows(page_html: str):
+    """CIVL-listen: én <div class="jsItem row-event ..."> per konkurranse."""
+    soup = BeautifulSoup(page_html, "html.parser")
+    events = []
+    for row in soup.select("div.row-event"):
+        a = row.select_one(".title-event a[href]")
+        if not a:
+            continue
+        m = re.search(r"/event/([^/?#]+)", a["href"])
+        if not m:
+            continue
+        txt = lambda sel: clean(row.select_one(sel).get_text(" ")) if row.select_one(sel) else ""
+        dato, sted, kat = txt(".date-event"), txt(".country-place"), txt(".status-event")
+        kat = f"Cat {kat.split()[0]}" if kat[:1].isdigit() else kat
+        events.append({
+            "id": "civl:" + m.group(1),
+            "kilde": "CIVL",
+            "navn": clean(a.get_text(" ")),
+            "dato": " · ".join(x for x in (dato, sted, kat) if x),
+            "info": clean(row.get_text(" "))[:200],
+            "url": f"https://civlcomps.org/event/{m.group(1)}",
+        })
+    return events
+
+
 def get_civl():
-    alle = {}
-    for side in range(CIVL_MAKS_SIDER):
-        params = dict(CIVL_PARAMS)
-        params["search[page]"] = str(side)
-        found = parse_civl(fetch(CIVL_URL, params))
-        nye = [e for e in found if e["id"] not in alle]
-        for e in found:
-            alle[e["id"]] = e
-        if not nye:  # ingen nye på denne siden -> slutt på listen
-            break
-    return list(alle.values())
+    # CIVL sender bare selve listen når forespørselen er merket som et bakgrunnskall (AJAX)
+    params = [
+        ("search[page]", "0"), ("search[mode]", "list"), ("search[pg]", ""),
+        ("search[pg]", "paragliding-xc"), ("search[hg]", ""), ("search[dates]", "upcoming"),
+        ("search[q]", ""), ("search[dates_range]", ""), ("search[sanction_status]", ""),
+        ("search[country_id]", ""),
+    ]
+    r = requests.get(CIVL_URL, params=params, timeout=30,
+                     headers={**HEADERS, "X-Requested-With": "XMLHttpRequest"})
+    r.raise_for_status()
+    events = parse_civl_rows(r.text) or parse_civl(r.text)
+    return events
 
 
 # --------------------------------------------------------------------------
@@ -285,6 +311,11 @@ def main():
         print(f"{kilde}: {len(found)} konkurranser")
         current.extend(found)
 
+    # En kilde vi aldri har lest før, regnes som "første gang" for den kilden,
+    # så vi ikke får varsel om alt som allerede finnes der.
+    kjente_kilder = {v["kilde"] for v in state["sett"].values()}
+    nye_kilder = {e["kilde"] for e in current} - kjente_kilder
+
     new = []
     for ev in current:
         if ev["id"] in state["sett"]:
@@ -292,8 +323,13 @@ def main():
             continue
         ev["funnet"] = now
         state["sett"][ev["id"]] = ev
-        if relevant(ev):
+        if relevant(ev) and ev["kilde"] not in nye_kilder:
             new.append(ev)
+
+    if nye_kilder and not first_run:
+        antall = sum(1 for e in current if e["kilde"] in nye_kilder)
+        notify(f"{' og '.join(sorted(nye_kilder))} er med ✅",
+               f"Leser nå {antall} kommende konkurranser derfra. Du får varsel når nye dukker opp.")
 
     if first_run:
         notify("Konkurransevarsel er i gang ✅",
