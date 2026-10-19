@@ -1,7 +1,7 @@
 {
  "feil": {
   "Airtribune": 0,
-  "CIVL": 3
+  "CIVL": 0
  },
  "sett": {
   "airtribune:acro-battle-oludeniz": {
@@ -57,6 +57,465 @@
    "kilde": "Airtribune",
    "navn": "SRS Advance Edition 2026",
    "url": "https://airtribune.com/srs-2026-6/"
+  },
+  "civl:10a-copa-open-verano-roldanillo-fai-2": {
+   "dato": "Jul 1 - Jul 5, 2027 · Roldanillo, COL · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:10a-copa-open-verano-roldanillo-fai-2",
+   "info": "Paragliding XC Roldanillo, COL",
+   "kilde": "CIVL",
+   "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
+   "url": "https://civlcomps.org/event/10a-copa-open-verano-roldanillo-fai-2"
+  },
+  "civl:2026-china-paragliding-open": {
+   "dato": "Oct 12 - Oct 19, 2026 · Jingdezhen, CHN · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:2026-china-paragliding-open",
+   "info": "Paragliding XC Jingdezhen, CHN",
+   "kilde": "CIVL",
+   "navn": "2026 China Paragliding Open",
+   "url": "https://civlcomps.org/event/2026-china-paragliding-open"
+  },
+  "civl:2026-sky-grand-prix-in-yoshinogawa": {
+   "dato": "Oct 31 - Nov 3, 2026 · Higashimiyoshi-cho, JPN · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:2026-sky-grand-prix-in-yoshinogawa",
+   "info": "Paragliding XC Higashimiyoshi-cho, JPN",
+   "kilde": "CIVL",
+   "navn": "2026 SKY GRAND PRIX in YOSHINOGAWA",
+   "url": "https://civlcomps.org/event/2026-sky-grand-prix-in-yoshinogawa"
+  },
+  "civl:22th-monarca-paragliding-open-2027": {
+   "dato": "Jan 10 - Jan 16, 2027 · Valle De Bravo, MEX · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:22th-monarca-paragliding-open-2027",
+   "info": "Paragliding XC Valle De Bravo, MEX",
+   "kilde": "CIVL",
+   "navn": "22th Monarca Paragliding Open 2027",
+   "url": "https://civlcomps.org/event/22th-monarca-paragliding-open-2027"
+  },
+  "civl:2nd-cup-dedalo-s-piedechinche-2027": {
+   "dato": "Feb 13 - Feb 19, 2027 · Piedechinche, COL · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:2nd-cup-dedalo-s-piedechinche-2027",
+   "info": "Paragliding XC Piedechinche, COL",
+   "kilde": "CIVL",
+   "navn": "2nd CUP DEDALO´S - PIEDECHINCHE 2027",
+   "url": "https://civlcomps.org/event/2nd-cup-dedalo-s-piedechinche-2027"
+  },
+  "civl:GermanOpenAlgodonales2027": {
+   "dato": "Sep 12 - Sep 18, 2027 · Algodonales, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:GermanOpenAlgodonales2027",
+   "info": "Paragliding XC Algodonales, ESP",
+   "kilde": "CIVL",
+   "navn": "German OPEN - Sierra de Cádiz - Algodonales 2027",
+   "url": "https://civlcomps.org/event/GermanOpenAlgodonales2027"
+  },
+  "civl:Nordic-paragliding-open-yelmo-2027": {
+   "dato": "Aug 28 - Sep 3, 2027 · Segura De La Sierra, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:Nordic-paragliding-open-yelmo-2027",
+   "info": "Paragliding XC Segura De La Sierra, ESP",
+   "kilde": "CIVL",
+   "navn": "Nordic Paragliding Open Yelmo 2027",
+   "url": "https://civlcomps.org/event/Nordic-paragliding-open-yelmo-2027"
+  },
+  "civl:Pre-Pwc-tenerife-xpo-2026": {
+   "dato": "Dec 4 - Dec 8, 2026 · Adeje, ESP · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:Pre-Pwc-tenerife-xpo-2026",
+   "info": "Paragliding XC Adeje, ESP",
+   "kilde": "CIVL",
+   "navn": "IV OPEN Tenerife XPO 2026",
+   "url": "https://civlcomps.org/event/Pre-Pwc-tenerife-xpo-2026"
+  },
+  "civl:afa-asian-xc-league-2026-thailand-grand-final": {
+   "dato": "Dec 7 - Dec 12, 2026 · Phu Thap Boek, Phetchabun, THA · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:afa-asian-xc-league-2026-thailand-grand-final",
+   "info": "Paragliding XC Phu Thap Boek, Phetchabun, THA",
+   "kilde": "CIVL",
+   "navn": "AFA Asian XC League 2026, Thailand - Grand Final",
+   "url": "https://civlcomps.org/event/afa-asian-xc-league-2026-thailand-grand-final"
+  },
+  "civl:andes-open-2027-fai-category-2-national-championship": {
+   "dato": "Jan 5 - Jan 9, 2027 · Loma De Los Angeles, Merida, VEN · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:andes-open-2027-fai-category-2-national-championship",
+   "info": "Paragliding XC Loma De Los Angeles, Merida, VEN",
+   "kilde": "CIVL",
+   "navn": "Andes Open 2027 – FAI Category 2 & National Championship",
+   "url": "https://civlcomps.org/event/andes-open-2027-fai-category-2-national-championship"
+  },
+  "civl:barberton-paragliding-open-2027": {
+   "dato": "Jun 13 - Jun 19, 2027 · Barberton, South Africa, RSA · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:barberton-paragliding-open-2027",
+   "info": "Paragliding XC Barberton, South Africa, RSA",
+   "kilde": "CIVL",
+   "navn": "Barberton Paragliding Open 2027",
+   "url": "https://civlcomps.org/event/barberton-paragliding-open-2027"
+  },
+  "civl:brigth-open-2027": {
+   "dato": "Feb 13 - Feb 19, 2027 · Bright, AUS · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:brigth-open-2027",
+   "info": "Paragliding XC Bright, AUS",
+   "kilde": "CIVL",
+   "navn": "Bright Open 2027",
+   "url": "https://civlcomps.org/event/brigth-open-2027"
+  },
+  "civl:calaca-fest-2026": {
+   "dato": "Oct 28 - Oct 31, 2026 · Tapalpa - Jalisco,, MEX · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:calaca-fest-2026",
+   "info": "Paragliding XC Tapalpa - Jalisco,, MEX",
+   "kilde": "CIVL",
+   "navn": "Calaca Fest 2026",
+   "url": "https://civlcomps.org/event/calaca-fest-2026"
+  },
+  "civl:campeonato-de-espana-biplaza-sport-y-B-2027": {
+   "dato": "Aug 1 - Aug 7, 2027 · Piedrahíta, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:campeonato-de-espana-biplaza-sport-y-B-2027",
+   "info": "Paragliding XC Piedrahíta, ESP",
+   "kilde": "CIVL",
+   "navn": "Campeonato de España Biplaza, Sport y Cat. B Piedrahíta 2027",
+   "url": "https://civlcomps.org/event/campeonato-de-espana-biplaza-sport-y-B-2027"
+  },
+  "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027": {
+   "dato": "Jun 13 - Jun 17, 2027 · Zarza-Capilla, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027",
+   "info": "Paragliding XC Zarza-Capilla, ESP",
+   "kilde": "CIVL",
+   "navn": "Campeonato de España distancia libre Zarzacapilla 2027",
+   "url": "https://civlcomps.org/event/campeonato-de-espana-distancia-libre-zarzacapilla-2027"
+  },
+  "civl:campeonato-de-espana-parapente-2027": {
+   "dato": "Jul 3 - Jul 10, 2027 · Cabezabellosa, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:campeonato-de-espana-parapente-2027",
+   "info": "Paragliding XC Cabezabellosa, ESP",
+   "kilde": "CIVL",
+   "navn": "Campeonato de España de Parapente Pitolero 2027",
+   "url": "https://civlcomps.org/event/campeonato-de-espana-parapente-2027"
+  },
+  "civl:cap-la-rioja-2027": {
+   "dato": "Oct 9 - Oct 16, 2027 · LA RIOJA, ARG · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:cap-la-rioja-2027",
+   "info": "Paragliding XC LA RIOJA, ARG",
+   "kilde": "CIVL",
+   "navn": "CAP La Rioja 2027",
+   "url": "https://civlcomps.org/event/cap-la-rioja-2027"
+  },
+  "civl:club-penon-open-2026": {
+   "dato": "Dec 14 - Dec 19, 2026 · Valle De Bravo, MEX · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:club-penon-open-2026",
+   "info": "Paragliding XC Valle De Bravo, MEX",
+   "kilde": "CIVL",
+   "navn": "Club Peñón Open 2026",
+   "url": "https://civlcomps.org/event/club-penon-open-2026"
+  },
+  "civl:copa-de-las-americas-roldanillo-2027": {
+   "dato": "Feb 4 - Feb 11, 2027 · Roldanillo, COL · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:copa-de-las-americas-roldanillo-2027",
+   "info": "Paragliding XC Roldanillo, COL",
+   "kilde": "CIVL",
+   "navn": "Copa de las Americas Roldanillo 2027",
+   "url": "https://civlcomps.org/event/copa-de-las-americas-roldanillo-2027"
+  },
+  "civl:copa-niviuk-2027-iv-edicion": {
+   "dato": "Jan 27 - Feb 3, 2027 · Roldanillo, COL · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:copa-niviuk-2027-iv-edicion",
+   "info": "Paragliding XC Roldanillo, COL",
+   "kilde": "CIVL",
+   "navn": "Copa Niviuk 2027 IV Edicion",
+   "url": "https://civlcomps.org/event/copa-niviuk-2027-iv-edicion"
+  },
+  "civl:copa-niviuk-2027-iv-edition": {
+   "dato": "Jan 27 - Feb 3, 2027 · Roldanillo, COL · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:copa-niviuk-2027-iv-edition",
+   "info": "Paragliding XC Roldanillo, COL",
+   "kilde": "CIVL",
+   "navn": "Copa Niviuk 2027 IV Edition",
+   "url": "https://civlcomps.org/event/copa-niviuk-2027-iv-edition"
+  },
+  "civl:corryong-pg-open-2027": {
+   "dato": "Feb 21 - Feb 27, 2027 · Corryong , AUS · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:corryong-pg-open-2027",
+   "info": "Paragliding XC Corryong , AUS",
+   "kilde": "CIVL",
+   "navn": "Corryong PG Open 2027",
+   "url": "https://civlcomps.org/event/corryong-pg-open-2027"
+  },
+  "civl:corryong-sports-cup-2027": {
+   "dato": "Mar 13 - Mar 20, 2027 · Corryong, AUS · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:corryong-sports-cup-2027",
+   "info": "Paragliding XC Corryong, AUS",
+   "kilde": "CIVL",
+   "navn": "Corryong sports Cup 2027",
+   "url": "https://civlcomps.org/event/corryong-sports-cup-2027"
+  },
+  "civl:corryong-sports-cup-20272": {
+   "dato": "Mar 13 - Mar 20, 2027 · Corryong , AUS · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:corryong-sports-cup-20272",
+   "info": "Paragliding XC Corryong , AUS",
+   "kilde": "CIVL",
+   "navn": "Corryong Sports Cup 2027",
+   "url": "https://civlcomps.org/event/corryong-sports-cup-20272"
+  },
+  "civl:final-stage-of-the-2026-southern-brazilian-championship-jara": {
+   "dato": "Nov 20 - Nov 22, 2026 · Morro Das Antenas, Jaragua Do Sul, BRA · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:final-stage-of-the-2026-southern-brazilian-championship-jara",
+   "info": "Paragliding XC Morro Das Antenas, Jaragua Do Sul, BRA",
+   "kilde": "CIVL",
+   "navn": "Final Stage of the 2026 Southern Brazilian Championship - Jaraguá do Sul",
+   "url": "https://civlcomps.org/event/final-stage-of-the-2026-southern-brazilian-championship-jara"
+  },
+  "civl:flymaster-open-2027": {
+   "dato": "Jul 18 - Jul 24, 2027 · Krushevo, MKD · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:flymaster-open-2027",
+   "info": "Paragliding XC Krushevo, MKD",
+   "kilde": "CIVL",
+   "navn": "Flymaster Open - Macedonian Nationals 2027",
+   "url": "https://civlcomps.org/event/flymaster-open-2027"
+  },
+  "civl:gin-performance-2027": {
+   "dato": "Aug 15 - Aug 21, 2027 · Krushevo, MKD · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:gin-performance-2027",
+   "info": "Paragliding XC Krushevo, MKD",
+   "kilde": "CIVL",
+   "navn": "Gin Performance 2027",
+   "url": "https://civlcomps.org/event/gin-performance-2027"
+  },
+  "civl:ii-etapa-do-campeonato-sul-brasileiro-de-parapente-2026": {
+   "dato": "Oct 31 - Nov 2, 2026 · Agudo, BRA · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:ii-etapa-do-campeonato-sul-brasileiro-de-parapente-2026",
+   "info": "Paragliding XC Agudo, BRA",
+   "kilde": "CIVL",
+   "navn": "II Etapa do Campeonato Sul-Brasileiro de Parapente 2026",
+   "url": "https://civlcomps.org/event/ii-etapa-do-campeonato-sul-brasileiro-de-parapente-2026"
+  },
+  "civl:jerai-international-paragliding-xc-championship-2027": {
+   "dato": "Jan 27 - Jan 31, 2027 · Yan, Kedah, MAS · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:jerai-international-paragliding-xc-championship-2027",
+   "info": "Paragliding XC Yan, Kedah, MAS",
+   "kilde": "CIVL",
+   "navn": "Jerai International Paragliding XC Championship 2027",
+   "url": "https://civlcomps.org/event/jerai-international-paragliding-xc-championship-2027"
+  },
+  "civl:junior-pg-worlds-2028": {
+   "dato": "May 14 - May 22, 2028 · Pegalajar, ESP · Cat 1",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:junior-pg-worlds-2028",
+   "info": "Paragliding XC Pegalajar, ESP",
+   "kilde": "CIVL",
+   "navn": "3rd FAI Junior World Paragliding Championships",
+   "url": "https://civlcomps.org/event/junior-pg-worlds-2028"
+  },
+  "civl:level-up-open-2027": {
+   "dato": "May 22 - May 28, 2027 · Trevegnin, FRA · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:level-up-open-2027",
+   "info": "Paragliding XC Trevegnin, FRA",
+   "kilde": "CIVL",
+   "navn": "Level Up Open 2027",
+   "url": "https://civlcomps.org/event/level-up-open-2027"
+  },
+  "civl:liga-nacional-boi-2027": {
+   "dato": "May 12 - May 16, 2027 · Barruera, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:liga-nacional-boi-2027",
+   "info": "Paragliding XC Barruera, ESP",
+   "kilde": "CIVL",
+   "navn": "Liga Nacional Boi 2027",
+   "url": "https://civlcomps.org/event/liga-nacional-boi-2027"
+  },
+  "civl:liga-nacional-huescar-2027": {
+   "dato": "Jun 2 - Jun 6, 2027 · Huéscar, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:liga-nacional-huescar-2027",
+   "info": "Paragliding XC Huéscar, ESP",
+   "kilde": "CIVL",
+   "navn": "Liga Nacional Huéscar 2027",
+   "url": "https://civlcomps.org/event/liga-nacional-huescar-2027"
+  },
+  "civl:liga-nacional-tenerife-2027": {
+   "dato": "Dec 4 - Dec 8, 2027 · Adeje, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:liga-nacional-tenerife-2027",
+   "info": "Paragliding XC Adeje, ESP",
+   "kilde": "CIVL",
+   "navn": "Liga Nacional Tenerife 2027",
+   "url": "https://civlcomps.org/event/liga-nacional-tenerife-2027"
+  },
+  "civl:loma-bola-funny-open-2026": {
+   "dato": "Nov 19 - Nov 22, 2026 · Loma Bola, Tucuman , ARG · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:loma-bola-funny-open-2026",
+   "info": "Paragliding XC Loma Bola, Tucuman , ARG",
+   "kilde": "CIVL",
+   "navn": "Loma Bola Funny Open 2026",
+   "url": "https://civlcomps.org/event/loma-bola-funny-open-2026"
+  },
+  "civl:open-nirgua-2026": {
+   "dato": "Nov 1 - Nov 7, 2026 · Nirgua, VEN · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:open-nirgua-2026",
+   "info": "Paragliding XC Nirgua, VEN",
+   "kilde": "CIVL",
+   "navn": "Open Nirgua 2026",
+   "url": "https://civlcomps.org/event/open-nirgua-2026"
+  },
+  "civl:pg-euro-2028": {
+   "dato": "Jul 22 - Aug 4, 2028 · Montalegre, POR · Cat 1",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:pg-euro-2028",
+   "info": "Paragliding XC Montalegre, POR",
+   "kilde": "CIVL",
+   "navn": "19th FAI European Paragliding Championships",
+   "url": "https://civlcomps.org/event/pg-euro-2028"
+  },
+  "civl:pg-panam-2028": {
+   "dato": "Nov 11 - Nov 19, 2028 · Tapalpa - Jalisco,, MEX · Cat 1",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:pg-panam-2028",
+   "info": "Paragliding XC Tapalpa - Jalisco,, MEX",
+   "kilde": "CIVL",
+   "navn": "8th FAI Pan American Paragliding Championships",
+   "url": "https://civlcomps.org/event/pg-panam-2028"
+  },
+  "civl:pg-worlds-2027": {
+   "dato": "Jul 26 - Aug 7, 2027 · PANTELEJ-NIŠ, SRB · Cat 1",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:pg-worlds-2027",
+   "info": "Paragliding XC PANTELEJ-NIŠ, SRB",
+   "kilde": "CIVL",
+   "navn": "20th FAI World Paragliding Championships",
+   "url": "https://civlcomps.org/event/pg-worlds-2027"
+  },
+  "civl:porterville-paragliding-open-2026-south-africa-pwc": {
+   "dato": "Dec 13 - Dec 19, 2026 · Porterville, RSA · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:porterville-paragliding-open-2026-south-africa-pwc",
+   "info": "Paragliding XC Porterville, RSA",
+   "kilde": "CIVL",
+   "navn": "Porterville Paragliding Open 2026, South Africa PWC",
+   "url": "https://civlcomps.org/event/porterville-paragliding-open-2026-south-africa-pwc"
+  },
+  "civl:prepwc-open-de-la-reunion-2026": {
+   "dato": "Oct 18 - Oct 24, 2026 · SAINT LEU, FRA · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:prepwc-open-de-la-reunion-2026",
+   "info": "Paragliding XC SAINT LEU, FRA",
+   "kilde": "CIVL",
+   "navn": "PrePWC Open de la Reunion 2026",
+   "url": "https://civlcomps.org/event/prepwc-open-de-la-reunion-2026"
+  },
+  "civl:primera-valida-nacional-open-roldanillo-2027": {
+   "dato": "Jan 19 - Jan 26, 2027 · Roldanillo, COL · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:primera-valida-nacional-open-roldanillo-2027",
+   "info": "Paragliding XC Roldanillo, COL",
+   "kilde": "CIVL",
+   "navn": "PRIMERA VALIDA NACIONAL OPEN ROLDANILLO 2027",
+   "url": "https://civlcomps.org/event/primera-valida-nacional-open-roldanillo-2027"
+  },
+  "civl:regional-bragado-xc-2026": {
+   "dato": "Nov 14 - Nov 15, 2026 · Bragado, ARG · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:regional-bragado-xc-2026",
+   "info": "Paragliding XC Bragado, ARG",
+   "kilde": "CIVL",
+   "navn": "Regional Bragado XC 2026",
+   "url": "https://civlcomps.org/event/regional-bragado-xc-2026"
+  },
+  "civl:santa-catarina-championship-tangara-sc": {
+   "dato": "Nov 28 - Nov 29, 2026 · Morro Agudo, Tangará, BRA · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:santa-catarina-championship-tangara-sc",
+   "info": "Paragliding XC Morro Agudo, Tangará, BRA",
+   "kilde": "CIVL",
+   "navn": "5th Stage of the 2026 Santa Catarina / Paranaense Championship - Tangará SC",
+   "url": "https://civlcomps.org/event/santa-catarina-championship-tangara-sc"
+  },
+  "civl:sicily-open-Hallowen-Cup": {
+   "dato": "Oct 28 - Nov 1, 2027 · Piana Dégli Albanesi, ITA · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:sicily-open-Hallowen-Cup",
+   "info": "Paragliding XC Piana Dégli Albanesi, ITA",
+   "kilde": "CIVL",
+   "navn": "Sicily open",
+   "url": "https://civlcomps.org/event/sicily-open-Hallowen-Cup"
+  },
+  "civl:srs-advance-edition-2026-tapalpa-mexico": {
+   "dato": "Nov 7 - Nov 14, 2026 · Tapalpa, MEX · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:srs-advance-edition-2026-tapalpa-mexico",
+   "info": "Paragliding XC Tapalpa, MEX",
+   "kilde": "CIVL",
+   "navn": "SRS Advance Edition, Mexico",
+   "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
+  },
+  "civl:tenerife-xpo-2027": {
+   "dato": "Dec 10 - Dec 14, 2027 · Adeje, ESP · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:tenerife-xpo-2027",
+   "info": "Paragliding XC Adeje, ESP",
+   "kilde": "CIVL",
+   "navn": "Tenerife XPO 2027",
+   "url": "https://civlcomps.org/event/tenerife-xpo-2027"
+  },
+  "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions": {
+   "dato": "Apr 26 - Apr 30, 2027 · Pegalajar, ESP · Cat 2",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions",
+   "info": "Paragliding XC Pegalajar, ESP",
+   "kilde": "CIVL",
+   "navn": "Test event of the 3rd FAI Junior World Paragliding Championships OPEN Jaén Paraíso Interior Pre-PWC",
+   "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
+  },
+  "civl:test-pg-euro-2028": {
+   "dato": "Jul 11 - Jul 18, 2027 · SERRA DO LAROUCO, POR · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:test-pg-euro-2028",
+   "info": "Paragliding XC SERRA DO LAROUCO, POR",
+   "kilde": "CIVL",
+   "navn": "Test event for 19th FAI European PG Championships - Portuguese PG Championship 2027",
+   "url": "https://civlcomps.org/event/test-pg-euro-2028"
+  },
+  "civl:test-pg-panam-2028": {
+   "dato": "Nov 6 - Nov 13, 2027 · Tapalpa - Jalisco,, MEX · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:test-pg-panam-2028",
+   "info": "Paragliding XC Tapalpa - Jalisco,, MEX",
+   "kilde": "CIVL",
+   "navn": "Test event of the 8th FAI Pan American Paragliding Championships",
+   "url": "https://civlcomps.org/event/test-pg-panam-2028"
+  },
+  "civl:vipava-valley-open-2027": {
+   "dato": "Mar 10 - Mar 14, 2027 · Lijak Nova Gorica, SLO · Cat No",
+   "funnet": "2026-10-19T18:11+00:00",
+   "id": "civl:vipava-valley-open-2027",
+   "info": "Paragliding XC Lijak Nova Gorica, SLO",
+   "kilde": "CIVL",
+   "navn": "Vipava Valley Open 2027",
+   "url": "https://civlcomps.org/event/vipava-valley-open-2027"
   }
  }
 }
