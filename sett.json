@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-20T07:05+00:00",
+    "hentet": "2026-10-20T09:51+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-20T07:05+00:00",
+    "hentet": "2026-10-20T09:51+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-20T07:05+00:00",
+    "hentet": "2026-10-20T09:51+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-20T07:05+00:00",
+    "hentet": "2026-10-20T09:51+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -503,6 +503,27 @@
    "start": "2027-07-17",
    "sted": "Gemona",
    "url": "https://airtribune.com/srs-2027-wsf/"
+  },
+  "airtribune:vv-open-2027": {
+   "_detaljer": true,
+   "deltakere": null,
+   "funnet": "2026-10-20T09:51+00:00",
+   "id": "airtribune:vv-open-2027",
+   "kategori": "",
+   "kilde": "Airtribune",
+   "land": "SVN",
+   "lat": 45.947600349657684,
+   "lon": 13.710572531849618,
+   "navn": "Vipava Valley Open 2027",
+   "reg": {
+    "hentet": "2026-10-20T09:51+00:00",
+    "maks": 120,
+    "pameldt": 1
+   },
+   "slutt": "2027-03-14",
+   "start": "2027-03-10",
+   "sted": "Nova Gorica, Lijak",
+   "url": "https://airtribune.com/vv-open-2027/"
   },
   "airtribune:x-scotia-hike-and-fly-2027": {
    "_detaljer": true,
@@ -537,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-20T07:05+00:00",
+    "maks_hentet": "2026-10-20T09:51+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -582,7 +603,7 @@
    "url": "https://civlcomps.org/event/2026-sky-grand-prix-in-yoshinogawa"
   },
   "civl:22th-monarca-paragliding-open-2027": {
-   "deltakere": 281,
+   "deltakere": 282,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:22th-monarca-paragliding-open-2027",
    "kategori": "Cat 2",
@@ -594,7 +615,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 281
+    "pameldt": 282
    },
    "slutt": "2027-01-16",
    "start": "2027-01-10",
