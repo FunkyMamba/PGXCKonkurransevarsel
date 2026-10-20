@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-20T03:52+00:00",
+    "hentet": "2026-10-20T07:05+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-20T03:52+00:00",
+    "hentet": "2026-10-20T07:05+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-20T03:52+00:00",
+    "hentet": "2026-10-20T07:05+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-20T03:52+00:00",
+    "hentet": "2026-10-20T07:05+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -537,7 +537,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-20T03:52+00:00",
+    "maks_hentet": "2026-10-20T07:05+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -682,7 +682,7 @@
    "url": "https://civlcomps.org/event/Pre-Pwc-tenerife-xpo-2026"
   },
   "civl:afa-asian-xc-league-2026-thailand-grand-final": {
-   "deltakere": 118,
+   "deltakere": 119,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:afa-asian-xc-league-2026-thailand-grand-final",
    "kategori": "Cat 2",
@@ -694,7 +694,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 118
+    "pameldt": 119
    },
    "slutt": "2026-12-12",
    "start": "2026-12-07",
@@ -802,7 +802,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-biplaza-sport-y-B-2027"
   },
   "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027": {
-   "deltakere": 37,
+   "deltakere": 38,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027",
    "kategori": "Ikke sanksjonert",
@@ -814,7 +814,7 @@
    "reg": {
     "maks": 70,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 37
+    "pameldt": 38
    },
    "slutt": "2027-06-17",
    "start": "2027-06-13",
@@ -1182,7 +1182,7 @@
    "url": "https://civlcomps.org/event/liga-nacional-boi-2027"
   },
   "civl:liga-nacional-huescar-2027": {
-   "deltakere": 48,
+   "deltakere": 49,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-huescar-2027",
    "kategori": "Ikke sanksjonert",
@@ -1194,7 +1194,7 @@
    "reg": {
     "maks": 110,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 48
+    "pameldt": 49
    },
    "slutt": "2027-06-06",
    "start": "2027-06-02",
