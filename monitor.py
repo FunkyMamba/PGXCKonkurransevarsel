@@ -615,23 +615,38 @@ def main():
             liste = "\n".join(f"• {e['navn']} ({beskriv(e)})" for e in new[:20])
             notify(f"{len(new)} nye konkurranser", liste)
         else:
+            gruppe_av = {x["id"]: g for g in grupper for x in g}
             for e in new:
-                notify(f"Ny: {e['navn']}", beskriv(e), url=e["url"])
+                r = gruppe_reg(gruppe_av.get(e["id"], [e]))
+                tekst = beskriv(e)
+                if (r.get("pameldt") or 0) > 0:
+                    tekst = (f"Påmelding åpen: {r['pameldt']} påmeldt"
+                             + (f" av {r['maks']}" if r.get("maks") else "") + " · " + tekst)
+                notify(f"Ny: {e['navn']}", tekst, url=e["url"])
 
     print(f"Nye relevante: {len(new)}")
 
-    # Påmelding åpnet – ett varsel per konkurranse (også om den ligger på begge sidene)
+    # Påmelding åpnet – vurderes for konkurransen samlet, på tvers av kildene.
+    # Åpnet = konkurransen var kjent med 0 påmeldte (i alle kjente kilder), og nå
+    # har minst én kilde påmeldte. Dekker også at påmeldingen ligger på en annen
+    # side enn der konkurransen først dukket opp (f.eks. CIVL-konkurranse med
+    # påmelding på Airtribune), selv om den siden allerede har påmeldte når vi ser den.
     apnet = []
     for g in grupper:
-        if not any(x["id"] in apnet_ids for x in g):
-            continue
-        if any((tidligere_reg.get(x["id"]) or {}).get("apnet") for x in g):
-            continue  # allerede varslet via den andre kilden
-        h = g[0]
-        if skal_varsles(h):
-            r = gruppe_reg(g)
-            kilde = next(x for x in g if x["id"] in apnet_ids)
-            apnet.append((h, r, kilde["url"]))
+        kjente = [tidligere_reg.get(x["id"]) for x in g if x["id"] in gamle_ids]
+        kjente = [r for r in kjente if r and r.get("pameldt") is not None]
+        if not kjente:
+            continue  # aldri sett påmeldingstall for denne før
+        if any((r.get("pameldt") or 0) > 0 or r.get("apnet") for r in kjente):
+            continue  # var allerede åpen
+        if any(x["id"] in apnet_ids for x in g) or (gruppe_reg(g).get("pameldt") or 0) > 0:
+            for x in g:
+                if (x.get("reg") or {}).get("pameldt"):
+                    x["reg"]["apnet"] = now
+            h = g[0]
+            if skal_varsles(h):
+                kilde = max(g, key=lambda x: (x.get("reg") or {}).get("pameldt") or 0)
+                apnet.append((h, gruppe_reg(g), kilde["url"]))
     if not first_run:
         if len(apnet) > MAKS_ENKELTVARSLER:
             liste = "\n".join(f"• {h['navn']} ({beskriv(h)})" for h, r, u in apnet[:20])
