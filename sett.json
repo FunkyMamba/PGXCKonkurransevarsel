@@ -1,7 +1,7 @@
 {
  "feil": {
   "Airtribune": 0,
-  "CIVL": 2
+  "CIVL": 3
  },
  "sett": {
   "airtribune:2nd-copa-dedalos-piedechinche-2027-powered-sup-air": {
@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-21T15:54+00:00",
+    "hentet": "2026-10-21T19:01+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-21T15:54+00:00",
+    "hentet": "2026-10-21T19:01+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-21T15:54+00:00",
+    "hentet": "2026-10-21T19:01+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-21T15:54+00:00",
+    "hentet": "2026-10-21T19:01+00:00",
     "maks": 120,
     "pameldt": 0
    },
