@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-22T09:54+00:00",
+    "hentet": "2026-10-22T13:06+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-22T09:54+00:00",
+    "hentet": "2026-10-22T13:06+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-22T09:54+00:00",
+    "hentet": "2026-10-22T13:06+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-22T09:54+00:00",
+    "hentet": "2026-10-22T13:06+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-22T09:54+00:00",
+    "maks_hentet": "2026-10-22T13:06+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -703,7 +703,7 @@
    "url": "https://civlcomps.org/event/Pre-Pwc-tenerife-xpo-2026"
   },
   "civl:afa-asian-xc-league-2026-thailand-grand-final": {
-   "deltakere": 121,
+   "deltakere": 122,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:afa-asian-xc-league-2026-thailand-grand-final",
    "kategori": "Cat 2",
@@ -715,7 +715,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 121
+    "pameldt": 122
    },
    "slutt": "2026-12-12",
    "start": "2026-12-07",
@@ -843,7 +843,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-distancia-libre-zarzacapilla-2027"
   },
   "civl:campeonato-de-espana-parapente-2027": {
-   "deltakere": 54,
+   "deltakere": 55,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-parapente-2027",
    "kategori": "Ikke sanksjonert",
@@ -855,7 +855,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 54
+    "pameldt": 55
    },
    "slutt": "2027-07-10",
    "start": "2027-07-03",
@@ -1043,7 +1043,7 @@
    "url": "https://civlcomps.org/event/final-stage-of-the-2026-southern-brazilian-championship-jara"
   },
   "civl:flymaster-open-2027": {
-   "deltakere": 64,
+   "deltakere": 65,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:flymaster-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1055,7 +1055,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 64
+    "pameldt": 65
    },
    "slutt": "2027-07-24",
    "start": "2027-07-18",
@@ -1519,7 +1519,7 @@
    "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
   },
   "civl:test-pg-euro-2028": {
-   "deltakere": 30,
+   "deltakere": 31,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-pg-euro-2028",
    "kategori": "Ikke sanksjonert",
@@ -1532,7 +1532,7 @@
     "apnet": "2026-10-20T18:59+00:00",
     "maks": 130,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 30
+    "pameldt": 31
    },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
