@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-22T01:02+00:00",
+    "hentet": "2026-10-22T03:54+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-22T01:02+00:00",
+    "hentet": "2026-10-22T03:54+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-22T01:02+00:00",
+    "hentet": "2026-10-22T03:54+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-22T01:02+00:00",
+    "hentet": "2026-10-22T03:54+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,9 +516,9 @@
    "lon": 13.710572531849618,
    "navn": "Vipava Valley Open 2027",
    "reg": {
-    "hentet": "2026-10-21T07:07+00:00",
+    "hentet": "2026-10-22T03:54+00:00",
     "maks": 120,
-    "pameldt": 70
+    "pameldt": 130
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-22T01:02+00:00",
+    "maks_hentet": "2026-10-22T03:54+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -783,7 +783,7 @@
    "url": "https://civlcomps.org/event/brigth-open-2027"
   },
   "civl:calaca-fest-2026": {
-   "deltakere": 39,
+   "deltakere": 40,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:calaca-fest-2026",
    "kategori": "Cat 2",
@@ -795,7 +795,7 @@
    "reg": {
     "maks": 100,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 39
+    "pameldt": 40
    },
    "slutt": "2026-10-31",
    "start": "2026-10-28",
