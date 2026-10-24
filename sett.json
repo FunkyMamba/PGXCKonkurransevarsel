@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-24T12:58+00:00",
+    "hentet": "2026-10-24T15:47+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-24T12:58+00:00",
+    "hentet": "2026-10-24T15:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-24T12:58+00:00",
+    "hentet": "2026-10-24T15:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-24T12:58+00:00",
+    "hentet": "2026-10-24T15:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-24T12:58+00:00",
+    "maks_hentet": "2026-10-24T15:47+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -643,7 +643,7 @@
    "url": "https://civlcomps.org/event/2nd-cup-dedalo-s-piedechinche-2027"
   },
   "civl:CopaDesafioMas7": {
-   "deltakere": 38,
+   "deltakere": 39,
    "funnet": "2026-10-23T15:55+00:00",
    "id": "civl:CopaDesafioMas7",
    "kategori": "Ikke sanksjonert",
@@ -655,7 +655,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-10-23T15:55+00:00",
-    "pameldt": 38
+    "pameldt": 39
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
