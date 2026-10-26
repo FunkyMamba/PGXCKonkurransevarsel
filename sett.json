@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-26T07:13+00:00",
+    "hentet": "2026-10-26T10:02+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-26T07:13+00:00",
+    "hentet": "2026-10-26T10:02+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-26T07:13+00:00",
+    "hentet": "2026-10-26T10:02+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-26T07:13+00:00",
+    "hentet": "2026-10-26T10:02+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-26T07:13+00:00",
+    "maks_hentet": "2026-10-26T10:02+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1083,7 +1083,7 @@
    "url": "https://civlcomps.org/event/flymaster-open-2027"
   },
   "civl:gin-performance-2027": {
-   "deltakere": 23,
+   "deltakere": 24,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:gin-performance-2027",
    "kategori": "Ikke sanksjonert",
@@ -1095,7 +1095,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 23
+    "pameldt": 24
    },
    "slutt": "2027-08-21",
    "start": "2027-08-15",
@@ -1143,7 +1143,7 @@
    "url": "https://civlcomps.org/event/iii-etapa-do-campeonato-gaucho-de-parapente"
   },
   "civl:jerai-international-paragliding-xc-championship-2027": {
-   "deltakere": 35,
+   "deltakere": 36,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:jerai-international-paragliding-xc-championship-2027",
    "kategori": "Ikke sanksjonert",
@@ -1155,7 +1155,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 35
+    "pameldt": 36
    },
    "slutt": "2027-01-31",
    "start": "2027-01-27",
@@ -1459,7 +1459,7 @@
    "url": "https://civlcomps.org/event/santa-catarina-championship-tangara-sc"
   },
   "civl:sicily-open-Hallowen-Cup": {
-   "deltakere": 358,
+   "deltakere": 359,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:sicily-open-Hallowen-Cup",
    "kategori": "Ikke sanksjonert",
@@ -1471,7 +1471,7 @@
    "reg": {
     "maks": 120,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 358
+    "pameldt": 359
    },
    "slutt": "2027-11-01",
    "start": "2027-10-28",
@@ -1499,7 +1499,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:tenerife-xpo-2027": {
-   "deltakere": 41,
+   "deltakere": 42,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:tenerife-xpo-2027",
    "kategori": "Ikke sanksjonert",
@@ -1511,7 +1511,7 @@
    "reg": {
     "maks": 122,
     "maks_hentet": "2026-10-19T19:28+00:00",
-    "pameldt": 41
+    "pameldt": 42
    },
    "slutt": "2027-12-14",
    "start": "2027-12-10",
