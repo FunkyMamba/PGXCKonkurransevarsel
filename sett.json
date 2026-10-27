@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-27T09:57+00:00",
+    "hentet": "2026-10-27T13:08+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-27T09:57+00:00",
+    "hentet": "2026-10-27T13:08+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-27T09:57+00:00",
+    "hentet": "2026-10-27T13:08+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-27T09:57+00:00",
+    "hentet": "2026-10-27T13:08+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,9 +516,9 @@
    "lon": 13.710572531849618,
    "navn": "Vipava Valley Open 2027",
    "reg": {
-    "hentet": "2026-10-26T14:58+00:00",
+    "hentet": "2026-10-27T13:08+00:00",
     "maks": 120,
-    "pameldt": 203
+    "pameldt": 204
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-27T09:57+00:00",
+    "maks_hentet": "2026-10-27T13:08+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -823,7 +823,7 @@
    "url": "https://civlcomps.org/event/calaca-fest-2026"
   },
   "civl:campeonato-de-espana-biplaza-sport-y-B-2027": {
-   "deltakere": 61,
+   "deltakere": 62,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-biplaza-sport-y-B-2027",
    "kategori": "Ikke sanksjonert",
@@ -835,7 +835,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 61
+    "pameldt": 62
    },
    "slutt": "2027-08-07",
    "start": "2027-08-01",
@@ -863,7 +863,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-distancia-libre-zarzacapilla-2027"
   },
   "civl:campeonato-de-espana-parapente-2027": {
-   "deltakere": 62,
+   "deltakere": 63,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-parapente-2027",
    "kategori": "Ikke sanksjonert",
@@ -875,7 +875,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 62
+    "pameldt": 63
    },
    "slutt": "2027-07-10",
    "start": "2027-07-03",
@@ -1500,7 +1500,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 14,
+   "deltakere": 15,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Ikke sanksjonert",
@@ -1512,7 +1512,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T14:58+00:00",
-    "pameldt": 14
+    "pameldt": 15
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
