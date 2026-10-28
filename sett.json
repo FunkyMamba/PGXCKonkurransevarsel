@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-28T13:17+00:00",
+    "hentet": "2026-10-28T16:07+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-28T13:17+00:00",
+    "hentet": "2026-10-28T16:07+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-28T13:17+00:00",
+    "hentet": "2026-10-28T16:07+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-28T13:17+00:00",
+    "hentet": "2026-10-28T16:07+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-28T13:17+00:00",
+    "maks_hentet": "2026-10-28T16:07+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -643,7 +643,7 @@
    "url": "https://civlcomps.org/event/2nd-cup-dedalo-s-piedechinche-2027"
   },
   "civl:CopaDesafioMas7": {
-   "deltakere": 48,
+   "deltakere": 51,
    "funnet": "2026-10-23T15:55+00:00",
    "id": "civl:CopaDesafioMas7",
    "kategori": "Ikke sanksjonert",
@@ -655,7 +655,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-10-23T15:55+00:00",
-    "pameldt": 48
+    "pameldt": 51
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
@@ -883,7 +883,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-parapente-2027"
   },
   "civl:cap-la-rioja-2027": {
-   "deltakere": 14,
+   "deltakere": 15,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:cap-la-rioja-2027",
    "kategori": "Ikke sanksjonert",
@@ -896,7 +896,7 @@
     "apnet": "2026-10-27T01:08+00:00",
     "maks": 80,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 14
+    "pameldt": 15
    },
    "slutt": "2027-10-16",
    "start": "2027-10-09",
@@ -1072,7 +1072,7 @@
    "land": "MKD",
    "lat": 41.36498036,
    "lon": 21.25293436,
-   "navn": "Flymaster Open - Macedonian Nationals 2027",
+   "navn": "Flymaster Open - Macedonian & Croatian Nationals 2027",
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
@@ -1084,7 +1084,7 @@
    "url": "https://civlcomps.org/event/flymaster-open-2027"
   },
   "civl:gin-performance-2027": {
-   "deltakere": 25,
+   "deltakere": 26,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:gin-performance-2027",
    "kategori": "Ikke sanksjonert",
@@ -1096,7 +1096,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 25
+    "pameldt": 26
    },
    "slutt": "2027-08-21",
    "start": "2027-08-15",
@@ -1420,7 +1420,7 @@
    "url": "https://civlcomps.org/event/primera-valida-nacional-open-roldanillo-2027"
   },
   "civl:regional-bragado-xc-2026": {
-   "deltakere": 22,
+   "deltakere": 23,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:regional-bragado-xc-2026",
    "kategori": "Cat 2",
@@ -1432,7 +1432,7 @@
    "reg": {
     "maks": 40,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 22
+    "pameldt": 23
    },
    "slutt": "2026-11-15",
    "start": "2026-11-14",
