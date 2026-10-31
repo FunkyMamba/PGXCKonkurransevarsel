@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-31T09:56+00:00",
+    "hentet": "2026-10-31T13:09+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-31T09:56+00:00",
+    "hentet": "2026-10-31T13:09+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-31T09:56+00:00",
+    "hentet": "2026-10-31T13:09+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-31T09:56+00:00",
+    "hentet": "2026-10-31T13:09+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-31T09:56+00:00",
+    "maks_hentet": "2026-10-31T13:09+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -643,7 +643,7 @@
    "url": "https://civlcomps.org/event/2nd-cup-dedalo-s-piedechinche-2027"
   },
   "civl:CopaDesafioMas7": {
-   "deltakere": 52,
+   "deltakere": 53,
    "funnet": "2026-10-23T15:55+00:00",
    "id": "civl:CopaDesafioMas7",
    "kategori": "Ikke sanksjonert",
@@ -655,7 +655,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-10-30T16:04+00:00",
-    "pameldt": 52
+    "pameldt": 53
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
@@ -1064,7 +1064,7 @@
    "url": "https://civlcomps.org/event/final-stage-of-the-2026-southern-brazilian-championship-jara"
   },
   "civl:flymaster-open-2027": {
-   "deltakere": 85,
+   "deltakere": 86,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:flymaster-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1076,7 +1076,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 85
+    "pameldt": 86
    },
    "slutt": "2027-07-24",
    "start": "2027-07-18",
@@ -1084,7 +1084,7 @@
    "url": "https://civlcomps.org/event/flymaster-open-2027"
   },
   "civl:gin-performance-2027": {
-   "deltakere": 28,
+   "deltakere": 29,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:gin-performance-2027",
    "kategori": "Ikke sanksjonert",
@@ -1096,7 +1096,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 28
+    "pameldt": 29
    },
    "slutt": "2027-08-21",
    "start": "2027-08-15",
