@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-31T15:51+00:00",
+    "hentet": "2026-10-31T19:02+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-31T15:51+00:00",
+    "hentet": "2026-10-31T19:02+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-31T15:51+00:00",
+    "hentet": "2026-10-31T19:02+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-31T15:51+00:00",
+    "maks_hentet": "2026-10-31T19:02+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1065,7 +1065,7 @@
    "url": "https://civlcomps.org/event/final-stage-of-the-2026-southern-brazilian-championship-jara"
   },
   "civl:flymaster-open-2027": {
-   "deltakere": 87,
+   "deltakere": 88,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:flymaster-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1077,7 +1077,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 87
+    "pameldt": 88
    },
    "slutt": "2027-07-24",
    "start": "2027-07-18",
@@ -1581,7 +1581,7 @@
    "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
   },
   "civl:test-pg-euro-2028": {
-   "deltakere": 56,
+   "deltakere": 57,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-pg-euro-2028",
    "kategori": "Ikke sanksjonert",
@@ -1594,7 +1594,7 @@
     "apnet": "2026-10-20T18:59+00:00",
     "maks": 130,
     "maks_hentet": "2026-10-26T21:50+00:00",
-    "pameldt": 56
+    "pameldt": 57
    },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
