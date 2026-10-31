@@ -348,7 +348,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
-    "hentet": "2026-10-31T07:15+00:00",
+    "hentet": "2026-10-31T09:56+00:00",
     "maks": 80,
     "pameldt": 0
    },
@@ -432,7 +432,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-10-31T07:15+00:00",
+    "hentet": "2026-10-31T09:56+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -453,7 +453,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-10-31T07:15+00:00",
+    "hentet": "2026-10-31T09:56+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-10-31T07:15+00:00",
+    "hentet": "2026-10-31T09:56+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -558,7 +558,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-10-31T07:15+00:00",
+    "maks_hentet": "2026-10-31T09:56+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
