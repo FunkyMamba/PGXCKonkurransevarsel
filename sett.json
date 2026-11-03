@@ -349,7 +349,7 @@
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
     "apnet": "2026-10-31T15:51+00:00",
-    "hentet": "2026-11-02T10:24+00:00",
+    "hentet": "2026-11-03T07:33+00:00",
     "maks": 80,
     "pameldt": 2
    },
@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-03T04:10+00:00",
+    "hentet": "2026-11-03T07:33+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-03T04:10+00:00",
+    "hentet": "2026-11-03T07:33+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-03T04:10+00:00",
+    "hentet": "2026-11-03T07:33+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-03T04:10+00:00",
+    "maks_hentet": "2026-11-03T07:33+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1541,7 +1541,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 106,
+   "deltakere": 107,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Ikke sanksjonert",
@@ -1553,7 +1553,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-02T16:19+00:00",
-    "pameldt": 106
+    "pameldt": 107
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
