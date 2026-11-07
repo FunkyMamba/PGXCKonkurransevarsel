@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-07T04:08+00:00",
+    "hentet": "2026-11-07T07:22+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-07T04:08+00:00",
+    "hentet": "2026-11-07T07:22+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-07T04:08+00:00",
+    "hentet": "2026-11-07T07:22+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-07T04:08+00:00",
+    "maks_hentet": "2026-11-07T07:22+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1085,7 +1085,7 @@
    "url": "https://civlcomps.org/event/final-stage-of-the-2026-southern-brazilian-championship-jara"
   },
   "civl:flymaster-open-2027": {
-   "deltakere": 93,
+   "deltakere": 94,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:flymaster-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1097,7 +1097,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-02T21:57+00:00",
-    "pameldt": 93
+    "pameldt": 94
    },
    "slutt": "2027-07-24",
    "start": "2027-07-18",
