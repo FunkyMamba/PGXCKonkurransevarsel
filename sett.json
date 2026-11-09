@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-09T04:19+00:00",
+    "hentet": "2026-11-09T07:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-09T04:19+00:00",
+    "hentet": "2026-11-09T07:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-09T04:19+00:00",
+    "hentet": "2026-11-09T07:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-09T04:19+00:00",
+    "maks_hentet": "2026-11-09T07:47+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -704,7 +704,7 @@
    "url": "https://civlcomps.org/event/Nordic-paragliding-open-yelmo-2027"
   },
   "civl:Pre-Pwc-tenerife-xpo-2026": {
-   "deltakere": 351,
+   "deltakere": 352,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:Pre-Pwc-tenerife-xpo-2026",
    "kategori": "Cat 2",
@@ -716,7 +716,7 @@
    "reg": {
     "maks": 122,
     "maks_hentet": "2026-11-02T21:57+00:00",
-    "pameldt": 351
+    "pameldt": 352
    },
    "slutt": "2026-12-08",
    "start": "2026-12-04",
@@ -864,7 +864,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-distancia-libre-zarzacapilla-2027"
   },
   "civl:campeonato-de-espana-parapente-2027": {
-   "deltakere": 74,
+   "deltakere": 75,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-parapente-2027",
    "kategori": "Ikke sanksjonert",
@@ -876,7 +876,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-02T21:57+00:00",
-    "pameldt": 74
+    "pameldt": 75
    },
    "slutt": "2027-07-10",
    "start": "2027-07-03",
@@ -1601,7 +1601,7 @@
    "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
   },
   "civl:test-pg-euro-2028": {
-   "deltakere": 77,
+   "deltakere": 78,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-pg-euro-2028",
    "kategori": "Cat 2",
@@ -1614,7 +1614,7 @@
     "apnet": "2026-10-20T18:59+00:00",
     "maks": 130,
     "maks_hentet": "2026-11-02T21:57+00:00",
-    "pameldt": 77
+    "pameldt": 78
    },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
