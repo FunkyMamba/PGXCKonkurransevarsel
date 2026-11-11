@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-10T21:58+00:00",
+    "hentet": "2026-11-11T01:25+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-10T21:58+00:00",
+    "hentet": "2026-11-11T01:25+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-10T21:58+00:00",
+    "hentet": "2026-11-11T01:25+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-10T21:58+00:00",
+    "maks_hentet": "2026-11-11T01:25+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -604,7 +604,7 @@
    "url": "https://civlcomps.org/event/2026-sky-grand-prix-in-yoshinogawa"
   },
   "civl:22th-monarca-paragliding-open-2027": {
-   "deltakere": 286,
+   "deltakere": 287,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:22th-monarca-paragliding-open-2027",
    "kategori": "Cat 2",
@@ -616,7 +616,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-09T22:02+00:00",
-    "pameldt": 286
+    "pameldt": 287
    },
    "slutt": "2027-01-16",
    "start": "2027-01-10",
@@ -744,7 +744,7 @@
    "url": "https://civlcomps.org/event/afa-asian-xc-league-2026-thailand-grand-final"
   },
   "civl:andes-open-2027-fai-category-2-national-championship": {
-   "deltakere": 19,
+   "deltakere": 22,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:andes-open-2027-fai-category-2-national-championship",
    "kategori": "Cat 2",
@@ -756,7 +756,7 @@
    "reg": {
     "maks": 40,
     "maks_hentet": "2026-11-09T22:02+00:00",
-    "pameldt": 19
+    "pameldt": 22
    },
    "slutt": "2027-01-09",
    "start": "2027-01-05",
@@ -1116,7 +1116,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-10T21:58+00:00",
+    "maks_hentet": "2026-11-11T01:25+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
