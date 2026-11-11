@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-11T19:20+00:00",
+    "hentet": "2026-11-11T22:18+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-11T19:20+00:00",
+    "hentet": "2026-11-11T22:18+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-11T19:20+00:00",
+    "hentet": "2026-11-11T22:18+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-11T19:20+00:00",
+    "maks_hentet": "2026-11-11T22:18+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -664,7 +664,7 @@
    "url": "https://civlcomps.org/event/4%C2%AA-etapa-gaucho-de-parapente-2026-sapiranga-rs"
   },
   "civl:CopaDesafioMas7": {
-   "deltakere": 55,
+   "deltakere": 56,
    "funnet": "2026-10-23T15:55+00:00",
    "id": "civl:CopaDesafioMas7",
    "kategori": "Ikke sanksjonert",
@@ -676,7 +676,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-11-06T16:04+00:00",
-    "pameldt": 55
+    "pameldt": 56
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
@@ -1136,7 +1136,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-11T19:20+00:00",
+    "maks_hentet": "2026-11-11T22:18+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1176,7 +1176,7 @@
    "navn": "Hangar Open 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-11T19:20+00:00",
+    "maks_hentet": "2026-11-11T22:18+00:00",
     "pameldt": 0
    },
    "slutt": "2027-01-09",
@@ -1601,7 +1601,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 154,
+   "deltakere": 155,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Ikke sanksjonert",
@@ -1613,7 +1613,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-09T16:21+00:00",
-    "pameldt": 154
+    "pameldt": 155
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
