@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-12T13:34+00:00",
+    "hentet": "2026-11-12T16:21+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-12T13:34+00:00",
+    "hentet": "2026-11-12T16:21+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-12T13:34+00:00",
+    "hentet": "2026-11-12T16:21+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-12T13:34+00:00",
+    "maks_hentet": "2026-11-12T16:21+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1136,7 +1136,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-12T13:34+00:00",
+    "maks_hentet": "2026-11-12T16:21+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1176,7 +1176,7 @@
    "navn": "Hangar Open 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-12T13:34+00:00",
+    "maks_hentet": "2026-11-12T16:21+00:00",
     "pameldt": 0
    },
    "slutt": "2027-01-09",
@@ -1285,7 +1285,7 @@
    "url": "https://civlcomps.org/event/level-up-open-2027"
   },
   "civl:liga-nacional-boi-2027": {
-   "deltakere": 99,
+   "deltakere": 100,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-boi-2027",
    "kategori": "Ikke sanksjonert",
@@ -1297,7 +1297,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-09T22:02+00:00",
-    "pameldt": 99
+    "pameldt": 100
    },
    "slutt": "2027-05-16",
    "start": "2027-05-12",
