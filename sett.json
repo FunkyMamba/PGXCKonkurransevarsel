@@ -433,7 +433,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-16T19:18+00:00",
+    "hentet": "2026-11-16T22:05+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -454,7 +454,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-16T19:18+00:00",
+    "hentet": "2026-11-16T22:05+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -475,7 +475,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-16T19:18+00:00",
+    "hentet": "2026-11-16T22:05+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -559,7 +559,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-16T19:18+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -615,7 +615,7 @@
    "navn": "22th Monarca Paragliding Open 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 289
    },
    "slutt": "2027-01-16",
@@ -635,7 +635,7 @@
    "navn": "2nd CUP DEDALO´S - PIEDECHINCHE 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-02-19",
@@ -695,7 +695,7 @@
    "navn": "German OPEN - Sierra de Cádiz - Algodonales 2027",
    "reg": {
     "maks": 125,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 2
    },
    "slutt": "2027-09-18",
@@ -715,7 +715,7 @@
    "navn": "Nordic Paragliding Open Yelmo 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 44
    },
    "slutt": "2027-09-03",
@@ -735,7 +735,7 @@
    "navn": "IV OPEN Tenerife XPO 2026",
    "reg": {
     "maks": 120,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 353
    },
    "slutt": "2026-12-08",
@@ -755,7 +755,7 @@
    "navn": "AFA Asian XC League 2026, Thailand - Grand Final",
    "reg": {
     "maks": 80,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 140
    },
    "slutt": "2026-12-12",
@@ -775,7 +775,7 @@
    "navn": "Andes Open 2027 – FAI Category 2 & National Championship",
    "reg": {
     "maks": 40,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 22
    },
    "slutt": "2027-01-09",
@@ -795,7 +795,7 @@
    "navn": "Barberton Paragliding Open 2027",
    "reg": {
     "maks": 100,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 13
    },
    "slutt": "2027-06-19",
@@ -815,7 +815,7 @@
    "navn": "Bright Open 2027",
    "reg": {
     "maks": 100,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-02-19",
@@ -855,7 +855,7 @@
    "navn": "Campeonato de España Biplaza, Sport y Cat. B Piedrahíta 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 71
    },
    "slutt": "2027-08-07",
@@ -875,7 +875,7 @@
    "navn": "Campeonato de España distancia libre Zarzacapilla 2027",
    "reg": {
     "maks": 70,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 45
    },
    "slutt": "2027-06-17",
@@ -895,7 +895,7 @@
    "navn": "Campeonato de España de Parapente Pitolero 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 83
    },
    "slutt": "2027-07-10",
@@ -916,7 +916,7 @@
    "reg": {
     "apnet": "2026-10-27T01:08+00:00",
     "maks": 80,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 18
    },
    "slutt": "2027-10-16",
@@ -936,7 +936,7 @@
    "navn": "Club Peñón Open 2026",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 96
    },
    "slutt": "2026-12-19",
@@ -956,7 +956,7 @@
    "navn": "Copa de las Americas Roldanillo 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-02-11",
@@ -996,7 +996,7 @@
    "navn": "Copa Niviuk 2027 IV Edition",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-02-03",
@@ -1016,7 +1016,7 @@
    "navn": "Corryong PG Open 2027",
    "reg": {
     "maks": 85,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-02-27",
@@ -1036,7 +1036,7 @@
    "navn": "Corryong sports Cup 2027",
    "reg": {
     "maks": 85,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-03-20",
@@ -1056,7 +1056,7 @@
    "navn": "Corryong Sports Cup 2027",
    "reg": {
     "maks": 85,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-03-20",
@@ -1076,7 +1076,7 @@
    "navn": "Dobrča Open 2027",
    "reg": {
     "maks": 90,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-04-18",
@@ -1096,7 +1096,7 @@
    "navn": "Final Stage of the 2026 Southern Brazilian Championship - Jaraguá do Sul",
    "reg": {
     "maks": 90,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2026-11-22",
@@ -1116,7 +1116,7 @@
    "navn": "Flymaster Open - Macedonian & Croatian Nationals 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 113
    },
    "slutt": "2027-07-24",
@@ -1136,7 +1136,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-16T19:18+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1156,7 +1156,7 @@
    "navn": "Gin Performance 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 38
    },
    "slutt": "2027-08-21",
@@ -1165,7 +1165,7 @@
    "url": "https://civlcomps.org/event/gin-performance-2027"
   },
   "civl:hangar-open-2027": {
-   "deltakere": 5,
+   "deltakere": 6,
    "funnet": "2026-11-11T16:11+00:00",
    "id": "civl:hangar-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1177,8 +1177,8 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-16T19:18+00:00",
-    "pameldt": 5
+    "maks_hentet": "2026-11-16T22:05+00:00",
+    "pameldt": 6
    },
    "slutt": "2027-01-09",
    "start": "2027-01-03",
@@ -1217,7 +1217,7 @@
    "navn": "III Etapa do Campeonato Gaúcho de Parapente",
    "reg": {
     "maks": 90,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2026-11-29",
@@ -1237,7 +1237,7 @@
    "navn": "Jerai International Paragliding XC Championship 2027",
    "reg": {
     "maks": 80,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 40
    },
    "slutt": "2027-01-31",
@@ -1257,7 +1257,7 @@
    "navn": "3rd FAI Junior World Paragliding Championships",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2028-05-22",
@@ -1277,7 +1277,7 @@
    "navn": "Level Up Open 2027",
    "reg": {
     "maks": 96,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-05-28",
@@ -1297,7 +1297,7 @@
    "navn": "Liga Nacional Boi 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 104
    },
    "slutt": "2027-05-16",
@@ -1317,7 +1317,7 @@
    "navn": "Liga Nacional Huéscar 2027",
    "reg": {
     "maks": 100,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 72
    },
    "slutt": "2027-06-06",
@@ -1337,7 +1337,7 @@
    "navn": "Liga Nacional Tenerife 2027",
    "reg": {
     "maks": 122,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 57
    },
    "slutt": "2027-12-08",
@@ -1357,7 +1357,7 @@
    "navn": "Loma Bola Funny Open 2026",
    "reg": {
     "maks": 100,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 47
    },
    "slutt": "2026-11-22",
@@ -1417,7 +1417,7 @@
    "navn": "19th FAI European Paragliding Championships",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2028-08-04",
@@ -1437,7 +1437,7 @@
    "navn": "8th FAI Pan American Paragliding Championships",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2028-11-19",
@@ -1457,7 +1457,7 @@
    "navn": "20th FAI World Paragliding Championships",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 1
    },
    "slutt": "2027-08-07",
@@ -1477,7 +1477,7 @@
    "navn": "Porterville Paragliding Open 2026, South Africa PWC",
    "reg": {
     "maks": 120,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2026-12-19",
@@ -1513,7 +1513,7 @@
    "navn": "PRIMERA VALIDA NACIONAL OPEN ROLDANILLO 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-01-26",
@@ -1522,7 +1522,7 @@
    "url": "https://civlcomps.org/event/primera-valida-nacional-open-roldanillo-2027"
   },
   "civl:regional-bragado-xc-2026": {
-   "deltakere": 26,
+   "deltakere": 20,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:regional-bragado-xc-2026",
    "kategori": "Cat 2",
@@ -1533,8 +1533,8 @@
    "navn": "Regional Bragado XC 2026",
    "reg": {
     "maks": 40,
-    "maks_hentet": "2026-11-09T22:02+00:00",
-    "pameldt": 26
+    "maks_hentet": "2026-11-16T22:05+00:00",
+    "pameldt": 20
    },
    "slutt": "2026-11-22",
    "start": "2026-11-20",
@@ -1553,7 +1553,7 @@
    "navn": "5th Stage of the 2026 Santa Catarina / Paranaense Championship - Tangará SC",
    "reg": {
     "maks": 90,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 5
    },
    "slutt": "2026-11-29",
@@ -1573,7 +1573,7 @@
    "navn": "Sicily open",
    "reg": {
     "maks": 120,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 367
    },
    "slutt": "2027-11-01",
@@ -1602,7 +1602,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 167,
+   "deltakere": 168,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Ikke sanksjonert",
@@ -1614,7 +1614,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T19:18+00:00",
-    "pameldt": 167
+    "pameldt": 168
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
@@ -1633,7 +1633,7 @@
    "navn": "Tenerife XPO 2027",
    "reg": {
     "maks": 122,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 55
    },
    "slutt": "2027-12-14",
@@ -1653,7 +1653,7 @@
    "navn": "Test event of the 3rd FAI Junior World Paragliding Championships OPEN Jaén Paraíso Interior Pre-PWC",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 93
    },
    "slutt": "2027-04-30",
@@ -1662,7 +1662,7 @@
    "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
   },
   "civl:test-pg-euro-2028": {
-   "deltakere": 99,
+   "deltakere": 100,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-pg-euro-2028",
    "kategori": "Cat 2",
@@ -1674,8 +1674,8 @@
    "reg": {
     "apnet": "2026-10-20T18:59+00:00",
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
-    "pameldt": 99
+    "maks_hentet": "2026-11-16T22:05+00:00",
+    "pameldt": 100
    },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
@@ -1694,7 +1694,7 @@
    "navn": "Test event of the 8th FAI Pan American Paragliding Championships",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-11-13",
@@ -1734,7 +1734,7 @@
    "navn": "Vipava Valley Open 2027",
    "reg": {
     "maks": 120,
-    "maks_hentet": "2026-11-09T22:02+00:00",
+    "maks_hentet": "2026-11-16T22:05+00:00",
     "pameldt": 0
    },
    "slutt": "2027-03-14",
