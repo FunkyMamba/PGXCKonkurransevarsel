@@ -16,9 +16,9 @@
    "lon": -76.19440107969102,
    "navn": "2nd Copa Dedalo´s - Piedechinche 2027 powered By Sup Air",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
-    "pameldt": 76
+    "pameldt": 75
    },
    "slutt": "2027-02-19",
    "start": "2027-02-13",
@@ -54,9 +54,9 @@
    "lon": -75.82795264916719,
    "navn": "Andes Tour Hike and fly Challenge",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 80,
-    "pameldt": 43
+    "pameldt": 44
    },
    "slutt": "2027-03-03",
    "start": "2027-02-28",
@@ -75,7 +75,7 @@
    "lon": null,
    "navn": "Bright Open 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 100,
     "pameldt": 106
    },
@@ -96,7 +96,7 @@
    "lon": 73.804221,
    "navn": "8th British Winter Open",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
     "pameldt": 162
    },
@@ -117,9 +117,9 @@
    "lon": -76.15461811423302,
    "navn": "Copa Niviuk 2027 IV edición",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 130,
-    "pameldt": 272
+    "pameldt": 267
    },
    "slutt": "2027-02-03",
    "start": "2027-01-27",
@@ -138,9 +138,9 @@
    "lon": null,
    "navn": "Copa de las Americas Roldanillo 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 130,
-    "pameldt": 234
+    "pameldt": 230
    },
    "slutt": "2027-02-11",
    "start": "2027-02-04",
@@ -159,7 +159,7 @@
    "lon": null,
    "navn": "Corryong PG Open 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 85,
     "pameldt": 98
    },
@@ -180,7 +180,7 @@
    "lon": null,
    "navn": "Corryong Sports Cup 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 85,
     "pameldt": 90
    },
@@ -201,7 +201,7 @@
    "lon": null,
    "navn": "FM Punjab Cup Pakistan 26",
    "reg": {
-    "hentet": "2026-11-21T02:26+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -222,7 +222,7 @@
    "lon": -4.828471618593692,
    "navn": "Glencoe Scottish National 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 30,
     "pameldt": 8
    },
@@ -243,7 +243,7 @@
    "lon": 150.65170711000903,
    "navn": "Manilla Pg Sports TDD 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 80,
     "pameldt": 23
    },
@@ -264,9 +264,9 @@
    "lon": 13.695654474000984,
    "navn": "11th Naviter Open 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 110,
-    "pameldt": 303
+    "pameldt": 304
    },
    "slutt": "2027-06-11",
    "start": "2027-06-05",
@@ -285,7 +285,7 @@
    "lon": 5.833615362644204,
    "navn": "Ozone Chabre Open 2027",
    "reg": {
-    "hentet": "2026-11-21T02:26+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "pameldt": 0
    },
    "slutt": "2027-07-02",
@@ -305,7 +305,7 @@
    "lon": -83.65731657434405,
    "navn": "Open Paragliding Costa Rica 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 67,
     "pameldt": 9
    },
@@ -326,9 +326,9 @@
    "lon": null,
    "navn": "PRIMERA VALIDA NACIONAL OPEN ROLDANILLO 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 130,
-    "pameldt": 213
+    "pameldt": 210
    },
    "slutt": "2027-01-26",
    "start": "2027-01-19",
@@ -347,7 +347,7 @@
    "lon": 18.992828,
    "navn": "Porterville Paragliding Open 2026, South African Pre-PWC",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 100,
     "pameldt": 120
    },
@@ -368,7 +368,7 @@
    "lon": null,
    "navn": "Open distance challenge Apia 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 80,
     "pameldt": 13
    },
@@ -411,7 +411,7 @@
    "lon": null,
    "navn": "RS Paragliding Championship Final Sapiranga",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
     "pameldt": 2
    },
@@ -453,7 +453,7 @@
    "lon": 13.710576350886624,
    "navn": "SRS Slovenia 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 100,
     "pameldt": 262
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-21T02:26+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -495,7 +495,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-21T02:26+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,7 +516,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-21T02:26+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -537,9 +537,9 @@
    "lon": 13.112765,
    "navn": "1st SRS World Sports Final",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 125,
-    "pameldt": 266
+    "pameldt": 267
    },
    "slutt": "2027-07-24",
    "start": "2027-07-17",
@@ -558,9 +558,9 @@
    "lon": 13.710572531849618,
    "navn": "Vipava Valley Open 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 120,
-    "pameldt": 308
+    "pameldt": 313
    },
    "slutt": "2027-03-14",
    "start": "2027-03-10",
@@ -579,7 +579,7 @@
    "lon": -4.825649855439416,
    "navn": "X-Scotia Hike and Fly 2027",
    "reg": {
-    "hentet": "2026-11-20T11:51+00:00",
+    "hentet": "2026-11-21T11:20+00:00",
     "maks": 30,
     "pameldt": 19
    },
@@ -600,7 +600,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-21T02:26+00:00",
+    "maks_hentet": "2026-11-21T11:20+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1177,7 +1177,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-21T02:26+00:00",
+    "maks_hentet": "2026-11-21T11:20+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1218,7 +1218,7 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-21T02:26+00:00",
+    "maks_hentet": "2026-11-21T11:20+00:00",
     "pameldt": 7
    },
    "slutt": "2027-01-09",
@@ -1327,7 +1327,7 @@
    "url": "https://civlcomps.org/event/level-up-open-2027"
   },
   "civl:liga-nacional-boi-2027": {
-   "deltakere": 106,
+   "deltakere": 107,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-boi-2027",
    "kategori": "Ikke sanksjonert",
@@ -1339,7 +1339,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 106
+    "pameldt": 107
    },
    "slutt": "2027-05-16",
    "start": "2027-05-12",
@@ -1683,7 +1683,7 @@
    "url": "https://civlcomps.org/event/tenerife-xpo-2027"
   },
   "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions": {
-   "deltakere": 101,
+   "deltakere": 102,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions",
    "kategori": "Cat 2",
@@ -1695,7 +1695,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 101
+    "pameldt": 102
    },
    "slutt": "2027-04-30",
    "start": "2027-04-26",
@@ -1782,6 +1782,26 @@
    "start": "2027-03-10",
    "sted": "Lijak Nova Gorica",
    "url": "https://civlcomps.org/event/vipava-valley-open-2027"
+  },
+  "civl:vrsac-open-2027": {
+   "deltakere": 6,
+   "funnet": "2026-11-21T11:20+00:00",
+   "id": "civl:vrsac-open-2027",
+   "kategori": "Ikke sanksjonert",
+   "kilde": "CIVL",
+   "land": "SRB",
+   "lat": 45.130075,
+   "lon": 21.33588812,
+   "navn": "Vrsac Open 2027",
+   "reg": {
+    "maks": 80,
+    "maks_hentet": "2026-11-21T11:20+00:00",
+    "pameldt": 6
+   },
+   "slutt": "2027-06-06",
+   "start": "2027-06-03",
+   "sted": "Vrsac",
+   "url": "https://civlcomps.org/event/vrsac-open-2027"
   }
  },
  "startet": "2026-10-19T17:52+00:00",
