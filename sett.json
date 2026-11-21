@@ -201,7 +201,7 @@
    "lon": null,
    "navn": "FM Punjab Cup Pakistan 26",
    "reg": {
-    "hentet": "2026-11-21T11:20+00:00",
+    "hentet": "2026-11-21T19:31+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -285,7 +285,7 @@
    "lon": 5.833615362644204,
    "navn": "Ozone Chabre Open 2027",
    "reg": {
-    "hentet": "2026-11-21T11:20+00:00",
+    "hentet": "2026-11-21T19:31+00:00",
     "pameldt": 0
    },
    "slutt": "2027-07-02",
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-21T11:20+00:00",
+    "hentet": "2026-11-21T19:31+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -495,7 +495,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-21T11:20+00:00",
+    "hentet": "2026-11-21T19:31+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,7 +516,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-21T11:20+00:00",
+    "hentet": "2026-11-21T19:31+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -600,7 +600,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-21T11:20+00:00",
+    "maks_hentet": "2026-11-21T19:31+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -905,7 +905,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-biplaza-sport-y-B-2027"
   },
   "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027": {
-   "deltakere": 45,
+   "deltakere": 47,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027",
    "kategori": "Ikke sanksjonert",
@@ -917,7 +917,7 @@
    "reg": {
     "maks": 70,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 45
+    "pameldt": 47
    },
    "slutt": "2027-06-17",
    "start": "2027-06-13",
@@ -925,7 +925,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-distancia-libre-zarzacapilla-2027"
   },
   "civl:campeonato-de-espana-parapente-2027": {
-   "deltakere": 85,
+   "deltakere": 86,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-parapente-2027",
    "kategori": "Ikke sanksjonert",
@@ -937,7 +937,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 85
+    "pameldt": 86
    },
    "slutt": "2027-07-10",
    "start": "2027-07-03",
@@ -1177,7 +1177,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-21T11:20+00:00",
+    "maks_hentet": "2026-11-21T19:31+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1218,7 +1218,7 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-21T11:20+00:00",
+    "maks_hentet": "2026-11-21T19:31+00:00",
     "pameldt": 7
    },
    "slutt": "2027-01-09",
@@ -1327,7 +1327,7 @@
    "url": "https://civlcomps.org/event/level-up-open-2027"
   },
   "civl:liga-nacional-boi-2027": {
-   "deltakere": 107,
+   "deltakere": 108,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-boi-2027",
    "kategori": "Ikke sanksjonert",
@@ -1339,7 +1339,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 107
+    "pameldt": 108
    },
    "slutt": "2027-05-16",
    "start": "2027-05-12",
@@ -1603,7 +1603,7 @@
    "url": "https://civlcomps.org/event/santa-catarina-championship-tangara-sc"
   },
   "civl:sicily-open-Hallowen-Cup": {
-   "deltakere": 371,
+   "deltakere": 372,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:sicily-open-Hallowen-Cup",
    "kategori": "Ikke sanksjonert",
@@ -1615,7 +1615,7 @@
    "reg": {
     "maks": 120,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 371
+    "pameldt": 372
    },
    "slutt": "2027-11-01",
    "start": "2027-10-28",
@@ -1784,7 +1784,7 @@
    "url": "https://civlcomps.org/event/vipava-valley-open-2027"
   },
   "civl:vrsac-open-2027": {
-   "deltakere": 6,
+   "deltakere": 7,
    "funnet": "2026-11-21T11:20+00:00",
    "id": "civl:vrsac-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1796,7 +1796,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-11-21T11:20+00:00",
-    "pameldt": 6
+    "pameldt": 7
    },
    "slutt": "2027-06-06",
    "start": "2027-06-03",
