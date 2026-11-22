@@ -201,7 +201,7 @@
    "lon": null,
    "navn": "FM Punjab Cup Pakistan 26",
    "reg": {
-    "hentet": "2026-11-22T11:38+00:00",
+    "hentet": "2026-11-22T19:48+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -285,7 +285,7 @@
    "lon": 5.833615362644204,
    "navn": "Ozone Chabre Open 2027",
    "reg": {
-    "hentet": "2026-11-22T11:38+00:00",
+    "hentet": "2026-11-22T19:48+00:00",
     "pameldt": 0
    },
    "slutt": "2027-07-02",
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-22T11:38+00:00",
+    "hentet": "2026-11-22T19:48+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -495,7 +495,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-22T11:38+00:00",
+    "hentet": "2026-11-22T19:48+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,7 +516,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-22T11:38+00:00",
+    "hentet": "2026-11-22T19:48+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -600,7 +600,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-22T11:38+00:00",
+    "maks_hentet": "2026-11-22T19:48+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -885,7 +885,7 @@
    "url": "https://civlcomps.org/event/calaca-fest-2026"
   },
   "civl:campeonato-de-espana-biplaza-sport-y-B-2027": {
-   "deltakere": 73,
+   "deltakere": 74,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-biplaza-sport-y-B-2027",
    "kategori": "Ikke sanksjonert",
@@ -897,7 +897,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 73
+    "pameldt": 74
    },
    "slutt": "2027-08-07",
    "start": "2027-08-01",
@@ -925,7 +925,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-distancia-libre-zarzacapilla-2027"
   },
   "civl:campeonato-de-espana-parapente-2027": {
-   "deltakere": 87,
+   "deltakere": 88,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-parapente-2027",
    "kategori": "Ikke sanksjonert",
@@ -937,7 +937,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 87
+    "pameldt": 88
    },
    "slutt": "2027-07-10",
    "start": "2027-07-03",
@@ -1177,7 +1177,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-22T11:38+00:00",
+    "maks_hentet": "2026-11-22T19:48+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1206,7 +1206,7 @@
    "url": "https://civlcomps.org/event/gin-performance-2027"
   },
   "civl:hangar-open-2027": {
-   "deltakere": 8,
+   "deltakere": 11,
    "funnet": "2026-11-11T16:11+00:00",
    "id": "civl:hangar-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1218,8 +1218,8 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-22T11:38+00:00",
-    "pameldt": 8
+    "maks_hentet": "2026-11-22T19:48+00:00",
+    "pameldt": 11
    },
    "slutt": "2027-01-09",
    "start": "2027-01-03",
@@ -1267,7 +1267,7 @@
    "url": "https://civlcomps.org/event/iii-etapa-do-campeonato-gaucho-de-parapente"
   },
   "civl:jerai-international-paragliding-xc-championship-2027": {
-   "deltakere": 42,
+   "deltakere": 43,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:jerai-international-paragliding-xc-championship-2027",
    "kategori": "Ikke sanksjonert",
@@ -1279,7 +1279,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 42
+    "pameldt": 43
    },
    "slutt": "2027-01-31",
    "start": "2027-01-27",
@@ -1367,7 +1367,7 @@
    "url": "https://civlcomps.org/event/liga-nacional-huescar-2027"
   },
   "civl:liga-nacional-tenerife-2027": {
-   "deltakere": 60,
+   "deltakere": 61,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-tenerife-2027",
    "kategori": "Ikke sanksjonert",
@@ -1379,7 +1379,7 @@
    "reg": {
     "maks": 122,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 60
+    "pameldt": 61
    },
    "slutt": "2027-12-08",
    "start": "2027-12-04",
@@ -1643,7 +1643,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 185,
+   "deltakere": 186,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Ikke sanksjonert",
@@ -1655,7 +1655,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T19:18+00:00",
-    "pameldt": 185
+    "pameldt": 186
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
@@ -1663,7 +1663,7 @@
    "url": "https://civlcomps.org/event/staufen-cup-2027"
   },
   "civl:tenerife-xpo-2027": {
-   "deltakere": 56,
+   "deltakere": 57,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:tenerife-xpo-2027",
    "kategori": "Ikke sanksjonert",
@@ -1675,7 +1675,7 @@
    "reg": {
     "maks": 122,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 56
+    "pameldt": 57
    },
    "slutt": "2027-12-14",
    "start": "2027-12-10",
@@ -1683,7 +1683,7 @@
    "url": "https://civlcomps.org/event/tenerife-xpo-2027"
   },
   "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions": {
-   "deltakere": 104,
+   "deltakere": 110,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions",
    "kategori": "Cat 2",
@@ -1695,7 +1695,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-16T22:05+00:00",
-    "pameldt": 104
+    "pameldt": 110
    },
    "slutt": "2027-04-30",
    "start": "2027-04-26",
@@ -1784,7 +1784,7 @@
    "url": "https://civlcomps.org/event/vipava-valley-open-2027"
   },
   "civl:vrsac-open-2027": {
-   "deltakere": 14,
+   "deltakere": 18,
    "funnet": "2026-11-21T11:20+00:00",
    "id": "civl:vrsac-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1796,7 +1796,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-11-21T11:20+00:00",
-    "pameldt": 14
+    "pameldt": 18
    },
    "slutt": "2027-06-06",
    "start": "2027-06-03",
