@@ -201,7 +201,7 @@
    "lon": null,
    "navn": "FM Punjab Cup Pakistan 26",
    "reg": {
-    "hentet": "2026-11-24T23:56+00:00",
+    "hentet": "2026-11-25T08:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -285,7 +285,7 @@
    "lon": 5.833615362644204,
    "navn": "Ozone Chabre Open 2027",
    "reg": {
-    "hentet": "2026-11-24T23:56+00:00",
+    "hentet": "2026-11-25T08:47+00:00",
     "pameldt": 0
    },
    "slutt": "2027-07-02",
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-24T23:56+00:00",
+    "hentet": "2026-11-25T08:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -495,7 +495,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-24T23:56+00:00",
+    "hentet": "2026-11-25T08:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,7 +516,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-24T23:56+00:00",
+    "hentet": "2026-11-25T08:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -600,7 +600,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-24T23:56+00:00",
+    "maks_hentet": "2026-11-25T08:47+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -885,7 +885,7 @@
    "url": "https://civlcomps.org/event/calaca-fest-2026"
   },
   "civl:campeonato-de-espana-biplaza-sport-y-B-2027": {
-   "deltakere": 74,
+   "deltakere": 75,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-biplaza-sport-y-B-2027",
    "kategori": "Ikke sanksjonert",
@@ -897,7 +897,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 74
+    "pameldt": 75
    },
    "slutt": "2027-08-07",
    "start": "2027-08-01",
@@ -905,7 +905,7 @@
    "url": "https://civlcomps.org/event/campeonato-de-espana-biplaza-sport-y-B-2027"
   },
   "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027": {
-   "deltakere": 48,
+   "deltakere": 49,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:campeonato-de-espana-distancia-libre-zarzacapilla-2027",
    "kategori": "Ikke sanksjonert",
@@ -917,7 +917,7 @@
    "reg": {
     "maks": 70,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 48
+    "pameldt": 49
    },
    "slutt": "2027-06-17",
    "start": "2027-06-13",
@@ -1177,7 +1177,7 @@
    "navn": "German Flatlands Paragliding 2027",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-24T23:56+00:00",
+    "maks_hentet": "2026-11-25T08:47+00:00",
     "pameldt": 0
    },
    "slutt": "2027-08-06",
@@ -1218,7 +1218,7 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-24T23:56+00:00",
+    "maks_hentet": "2026-11-25T08:47+00:00",
     "pameldt": 11
    },
    "slutt": "2027-01-09",
@@ -1563,7 +1563,7 @@
    "url": "https://civlcomps.org/event/primera-valida-nacional-open-roldanillo-2027"
   },
   "civl:rajac-open-2027": {
-   "deltakere": null,
+   "deltakere": 5,
    "funnet": "2026-11-24T23:56+00:00",
    "id": "civl:rajac-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1573,9 +1573,10 @@
    "lon": 20.24504741,
    "navn": "Rajac Open 2027",
    "reg": {
+    "apnet": "2026-11-25T08:47+00:00",
     "maks": 70,
     "maks_hentet": "2026-11-24T23:56+00:00",
-    "pameldt": 0
+    "pameldt": 5
    },
    "slutt": "2027-07-04",
    "start": "2027-06-24",
@@ -1804,7 +1805,7 @@
    "url": "https://civlcomps.org/event/vipava-valley-open-2027"
   },
   "civl:vrsac-open-2027": {
-   "deltakere": 22,
+   "deltakere": 23,
    "funnet": "2026-11-21T11:20+00:00",
    "id": "civl:vrsac-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1816,7 +1817,7 @@
    "reg": {
     "maks": 80,
     "maks_hentet": "2026-11-21T11:20+00:00",
-    "pameldt": 22
+    "pameldt": 23
    },
    "slutt": "2027-06-06",
    "start": "2027-06-03",
