@@ -285,7 +285,7 @@
    "lon": 5.833615362644204,
    "navn": "Ozone Chabre Open 2027",
    "reg": {
-    "hentet": "2026-11-27T01:47+00:00",
+    "hentet": "2026-11-27T12:42+00:00",
     "pameldt": 0
    },
    "slutt": "2027-07-02",
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-27T01:47+00:00",
+    "hentet": "2026-11-27T12:42+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -495,7 +495,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-27T01:47+00:00",
+    "hentet": "2026-11-27T12:42+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,7 +516,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-27T01:47+00:00",
+    "hentet": "2026-11-27T12:42+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -600,7 +600,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-27T01:47+00:00",
+    "maks_hentet": "2026-11-27T12:42+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -843,6 +843,26 @@
    "start": "2027-06-13",
    "sted": "Barberton, South Africa",
    "url": "https://civlcomps.org/event/barberton-paragliding-open-2027"
+  },
+  "civl:brazilian-paragliding-nationals-open": {
+   "deltakere": null,
+   "funnet": "2026-11-27T12:42+00:00",
+   "id": "civl:brazilian-paragliding-nationals-open",
+   "kategori": "Ikke sanksjonert",
+   "kilde": "CIVL",
+   "land": "BRA",
+   "lat": -15.7528866,
+   "lon": -49.3344033,
+   "navn": "Brazilian Paragliding Nationals Open",
+   "reg": {
+    "maks": 120,
+    "maks_hentet": "2026-11-27T12:42+00:00",
+    "pameldt": 0
+   },
+   "slutt": "2027-07-03",
+   "start": "2027-06-25",
+   "sted": "Jaraguá, Goias",
+   "url": "https://civlcomps.org/event/brazilian-paragliding-nationals-open"
   },
   "civl:brigth-open-2027": {
    "deltakere": null,
@@ -1218,7 +1238,7 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-27T01:47+00:00",
+    "maks_hentet": "2026-11-27T12:42+00:00",
     "pameldt": 11
    },
    "slutt": "2027-01-09",
@@ -1347,7 +1367,7 @@
    "url": "https://civlcomps.org/event/liga-nacional-boi-2027"
   },
   "civl:liga-nacional-huescar-2027": {
-   "deltakere": 77,
+   "deltakere": 78,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-huescar-2027",
    "kategori": "Ikke sanksjonert",
@@ -1359,7 +1379,7 @@
    "reg": {
     "maks": 100,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 77
+    "pameldt": 78
    },
    "slutt": "2027-06-06",
    "start": "2027-06-02",
@@ -1664,7 +1684,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 206,
+   "deltakere": 208,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Cat 2",
@@ -1676,7 +1696,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 206
+    "pameldt": 208
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
@@ -1724,7 +1744,7 @@
    "url": "https://civlcomps.org/event/test-event-of-4th-fai-asian-oceanic-paragliding-championship"
   },
   "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions": {
-   "deltakere": 125,
+   "deltakere": 127,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions",
    "kategori": "Cat 2",
@@ -1736,7 +1756,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 125
+    "pameldt": 127
    },
    "slutt": "2027-04-30",
    "start": "2027-04-26",
@@ -1744,7 +1764,7 @@
    "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
   },
   "civl:test-pg-euro-2028": {
-   "deltakere": 110,
+   "deltakere": 111,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-pg-euro-2028",
    "kategori": "Cat 2",
@@ -1757,7 +1777,7 @@
     "apnet": "2026-10-20T18:59+00:00",
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 110
+    "pameldt": 111
    },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
