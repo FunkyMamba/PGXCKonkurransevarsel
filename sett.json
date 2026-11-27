@@ -285,7 +285,7 @@
    "lon": 5.833615362644204,
    "navn": "Ozone Chabre Open 2027",
    "reg": {
-    "hentet": "2026-11-26T17:02+00:00",
+    "hentet": "2026-11-27T01:47+00:00",
     "pameldt": 0
    },
    "slutt": "2027-07-02",
@@ -390,7 +390,7 @@
    "navn": "RS Paragliding Championship Encantado",
    "reg": {
     "apnet": "2026-10-31T15:51+00:00",
-    "hentet": "2026-11-26T03:38+00:00",
+    "hentet": "2026-11-27T01:47+00:00",
     "maks": 80,
     "pameldt": 2
    },
@@ -474,7 +474,7 @@
    "lon": null,
    "navn": "SRS France, Montclar 2027",
    "reg": {
-    "hentet": "2026-11-26T17:02+00:00",
+    "hentet": "2026-11-27T01:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -495,7 +495,7 @@
    "lon": null,
    "navn": "SRS North Macedonia 2027",
    "reg": {
-    "hentet": "2026-11-26T17:02+00:00",
+    "hentet": "2026-11-27T01:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -516,7 +516,7 @@
    "lon": null,
    "navn": "SRS St. Andre Les Alpes 2027",
    "reg": {
-    "hentet": "2026-11-26T17:02+00:00",
+    "hentet": "2026-11-27T01:47+00:00",
     "maks": 120,
     "pameldt": 0
    },
@@ -600,7 +600,7 @@
    "navn": "10a COPA OPEN VERANO ROLDANILLO FAI 2",
    "reg": {
     "maks": null,
-    "maks_hentet": "2026-11-26T17:02+00:00",
+    "maks_hentet": "2026-11-27T01:47+00:00",
     "pameldt": 10
    },
    "slutt": "2027-07-05",
@@ -1186,7 +1186,7 @@
    "url": "https://civlcomps.org/event/german-flatlands-paragliding-2027"
   },
   "civl:gin-performance-2027": {
-   "deltakere": 45,
+   "deltakere": 46,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:gin-performance-2027",
    "kategori": "Ikke sanksjonert",
@@ -1198,7 +1198,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 45
+    "pameldt": 46
    },
    "slutt": "2027-08-21",
    "start": "2027-08-15",
@@ -1218,7 +1218,7 @@
    "reg": {
     "apnet": "2026-11-16T04:53+00:00",
     "maks": null,
-    "maks_hentet": "2026-11-26T17:02+00:00",
+    "maks_hentet": "2026-11-27T01:47+00:00",
     "pameldt": 11
    },
    "slutt": "2027-01-09",
@@ -1327,7 +1327,7 @@
    "url": "https://civlcomps.org/event/level-up-open-2027"
   },
   "civl:liga-nacional-boi-2027": {
-   "deltakere": 111,
+   "deltakere": 112,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-boi-2027",
    "kategori": "Ikke sanksjonert",
@@ -1339,7 +1339,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 111
+    "pameldt": 112
    },
    "slutt": "2027-05-16",
    "start": "2027-05-12",
@@ -1367,7 +1367,7 @@
    "url": "https://civlcomps.org/event/liga-nacional-huescar-2027"
   },
   "civl:liga-nacional-tenerife-2027": {
-   "deltakere": 62,
+   "deltakere": 63,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:liga-nacional-tenerife-2027",
    "kategori": "Ikke sanksjonert",
@@ -1379,7 +1379,7 @@
    "reg": {
     "maks": 122,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 62
+    "pameldt": 63
    },
    "slutt": "2027-12-08",
    "start": "2027-12-04",
@@ -1418,7 +1418,7 @@
    "navn": "Niviuk Red Rocks Wide Open, SRS, PRE PWC 2027",
    "reg": {
     "maks": 130,
-    "maks_hentet": "2026-11-19T20:46+00:00",
+    "maks_hentet": "2026-11-27T01:47+00:00",
     "pameldt": 0
    },
    "slutt": "2027-09-25",
@@ -1563,7 +1563,7 @@
    "url": "https://civlcomps.org/event/primera-valida-nacional-open-roldanillo-2027"
   },
   "civl:rajac-open-2027": {
-   "deltakere": 17,
+   "deltakere": 18,
    "funnet": "2026-11-24T23:56+00:00",
    "id": "civl:rajac-open-2027",
    "kategori": "Ikke sanksjonert",
@@ -1576,7 +1576,7 @@
     "apnet": "2026-11-25T08:47+00:00",
     "maks": 70,
     "maks_hentet": "2026-11-24T23:56+00:00",
-    "pameldt": 17
+    "pameldt": 18
    },
    "slutt": "2027-07-04",
    "start": "2027-06-24",
@@ -1664,7 +1664,7 @@
    "url": "https://civlcomps.org/event/srs-advance-edition-2026-tapalpa-mexico"
   },
   "civl:staufen-cup-2027": {
-   "deltakere": 205,
+   "deltakere": 206,
    "funnet": "2026-10-26T14:58+00:00",
    "id": "civl:staufen-cup-2027",
    "kategori": "Cat 2",
@@ -1676,7 +1676,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 205
+    "pameldt": 206
    },
    "slutt": "2027-04-11",
    "start": "2027-04-08",
@@ -1684,7 +1684,7 @@
    "url": "https://civlcomps.org/event/staufen-cup-2027"
   },
   "civl:tenerife-xpo-2027": {
-   "deltakere": 60,
+   "deltakere": 61,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:tenerife-xpo-2027",
    "kategori": "Ikke sanksjonert",
@@ -1696,7 +1696,7 @@
    "reg": {
     "maks": 122,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 60
+    "pameldt": 61
    },
    "slutt": "2027-12-14",
    "start": "2027-12-10",
@@ -1724,7 +1724,7 @@
    "url": "https://civlcomps.org/event/test-event-of-4th-fai-asian-oceanic-paragliding-championship"
   },
   "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions": {
-   "deltakere": 124,
+   "deltakere": 125,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-event-of-the-3rd-fai-junior-world-paragliding-champions",
    "kategori": "Cat 2",
@@ -1736,7 +1736,7 @@
    "reg": {
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 124
+    "pameldt": 125
    },
    "slutt": "2027-04-30",
    "start": "2027-04-26",
@@ -1744,7 +1744,7 @@
    "url": "https://civlcomps.org/event/test-event-of-the-3rd-fai-junior-world-paragliding-champions"
   },
   "civl:test-pg-euro-2028": {
-   "deltakere": 108,
+   "deltakere": 110,
    "funnet": "2026-10-19T18:11+00:00",
    "id": "civl:test-pg-euro-2028",
    "kategori": "Cat 2",
@@ -1757,7 +1757,7 @@
     "apnet": "2026-10-20T18:59+00:00",
     "maks": 130,
     "maks_hentet": "2026-11-24T02:18+00:00",
-    "pameldt": 108
+    "pameldt": 110
    },
    "slutt": "2027-07-18",
    "start": "2027-07-11",
@@ -1796,7 +1796,7 @@
    "navn": "Tribalj Open 2027",
    "reg": {
     "maks": 60,
-    "maks_hentet": "2026-11-19T20:46+00:00",
+    "maks_hentet": "2026-11-27T01:47+00:00",
     "pameldt": 0
    },
    "slutt": "2027-09-05",
